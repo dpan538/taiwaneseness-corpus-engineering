@@ -1,40 +1,40 @@
 # Corpus Health Report
 
-Score: 72.10/100
+Score: 73.11/100
 
 Grade: D
 
 ## Summary
 
-- health_score: 72.1
+- health_score: 73.11
 - grade: D
-- usable_records: 541
-- unique_sources: 311
-- verification_quality: 89.42
+- usable_records: 577
+- unique_sources: 322
+- verification_quality: 88.09
 - duplicate_rate: 0.0
 - split_artifact_groups: 0
-- low_confidence_probable_rate: 0.18
+- low_confidence_probable_rate: 0.17
 - ownership_completeness: 93.75
-- ownership_matching_rate: 2.08
+- ownership_matching_rate: 1.94
 - negative_search_effort: 30.0
-- 1946_1987_coverage: 41.57
-- 1987_2015_coverage: 20.8
-- 2015_2025_coverage: 28.67
+- 1946_1987_coverage: 42.0
+- 1987_2015_coverage: 21.2
+- 2015_2025_coverage: 38.67
 
 ## Temporal Distribution
 
 | phase | time_bin | usable_records | is_empty |
 | --- | --- | --- | --- |
 | 1946_1987 | 1946-1959 | 57 | 0 |
-| 1946_1987 | 1960-1969 | 40 | 0 |
+| 1946_1987 | 1960-1969 | 41 | 0 |
 | 1946_1987 | 1970-1979 | 61 | 0 |
-| 1946_1987 | 1980-1987 | 133 | 0 |
+| 1946_1987 | 1980-1987 | 135 | 0 |
 | 1987_2015 | 1988-1995 | 37 | 0 |
 | 1987_2015 | 1996-2005 | 49 | 0 |
-| 1987_2015 | 2006-2014 | 70 | 0 |
-| 2015_2025 | 2015-2017 | 17 | 0 |
-| 2015_2025 | 2018-2020 | 29 | 0 |
-| 2015_2025 | 2021-2025 | 40 | 0 |
+| 1987_2015 | 2006-2014 | 73 | 0 |
+| 2015_2025 | 2015-2017 | 18 | 0 |
+| 2015_2025 | 2018-2020 | 37 | 0 |
+| 2015_2025 | 2021-2025 | 61 | 0 |
 
 ## Negative Search Effort
 
@@ -53,9 +53,9 @@ Grade: D
 
 ## Ownership Matching
 
-- unique brands in usable attestations: 480
+- unique brands in usable attestations: 516
 - brands matched to ownership events: 10
-- ownership_matching_rate: 2.08%
+- ownership_matching_rate: 1.94%
 - interpretation: below 30% means ownership analysis is exploratory only; below 70% blocks strong ownership-shift claims.
 
 

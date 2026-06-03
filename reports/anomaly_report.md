@@ -1,6 +1,6 @@
 # Corpus Anomaly Report
 
-Generated: 2026-06-03T22:02:35
+Generated: 2026-06-03T22:13:50
 
 ## Summary
 
@@ -13,7 +13,7 @@ Generated: 2026-06-03T22:02:35
 - low_conf_verified_rows: 0
 - low_conf_probable_rows: 1
 - short_text_rows: 0
-- fuzzy_duplicate_pairs: 0
+- fuzzy_duplicate_pairs: 366
 
 ## Field Completeness
 

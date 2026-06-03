@@ -8,11 +8,20 @@ period,corridor,n_attestations,lexical_binding_index,branding_binding_index,owne
 1946-1987_taiwan_side_formation,Taiwan-side,97,1.0000,0.0103,0.0000,0.5026
 1950-1978_taiwan_side_popular_food,Taiwan-side,4,0.0000,0.0000,0.0000,0.0000
 1979-1987_brand_formalization_and_reopening,Taiwan-side,3,0.0000,0.0000,0.0000,0.0000
-1988-2001_cross_strait_mobility,North China,1,0.0000,0.0000,0.0000,0.0000
-1988-2001_cross_strait_mobility,Taiwan-side,2,0.0000,0.0000,0.0000,0.0000
-1988-2001_cross_strait_mobility,Yangtze River Delta,1,0.0000,0.0000,0.0000,0.0000
-2002-2013_taiwan_capital_gateway,North China,2,0.0000,0.0000,0.0000,0.0000
-2002-2013_taiwan_capital_gateway,Taiwan-side,3,0.0000,0.0000,0.0000,0.0000
-2002-2013_taiwan_capital_gateway,Yangtze River Delta,3,0.0000,0.0000,0.0000,0.0000
-2014-2020_pre_wanghong_platformization,Taiwan-side,3,0.0000,0.0000,0.0000,0.0000
-2014-2020_pre_wanghong_platformization,Yangtze River Delta,3,0.0000,0.0000,0.0000,0.0000
+1988-2001_cross_strait_mobility,Hong Kong,1,1.0000,0.0000,0.0000,0.5000
+1988-2001_cross_strait_mobility,North China,3,0.6667,0.0000,0.0000,0.3333
+1988-2001_cross_strait_mobility,Taiwan-side,4,0.5000,0.2500,0.0000,0.3125
+1988-2001_cross_strait_mobility,Yangtze River Delta,4,0.7500,0.0000,0.0000,0.3750
+2002-2013_taiwan_capital_gateway,Japan,3,1.0000,0.0000,0.0000,0.5000
+2002-2013_taiwan_capital_gateway,North America,1,1.0000,0.0000,0.0000,0.5000
+2002-2013_taiwan_capital_gateway,North China,7,0.7143,0.0000,0.0000,0.3571
+2002-2013_taiwan_capital_gateway,Taiwan-side,24,0.8750,0.0833,0.0000,0.4583
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,17,0.8235,0.1765,0.0000,0.4559
+2014-2020_pre_wanghong_platformization,North China,2,1.0000,0.0000,0.0000,0.5000
+2014-2020_pre_wanghong_platformization,Taiwan-side,10,0.7000,0.2000,0.0000,0.4000
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,12,0.7500,0.5833,0.0000,0.5208
+2014-2020_pre_wanghong_platformization,national,1,1.0000,0.0000,0.0000,0.5000
+2021-2025_internet_wanghong_capital,Central China,1,1.0000,0.0000,0.0000,0.5000
+2021-2025_internet_wanghong_capital,Taiwan-side,1,1.0000,0.0000,0.0000,0.5000
+2021-2025_internet_wanghong_capital,Yangtze River Delta,13,1.0000,0.3846,0.0000,0.5962
+2021-2025_internet_wanghong_capital,national,1,1.0000,0.0000,0.0000,0.5000

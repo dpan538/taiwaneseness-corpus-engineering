@@ -1,4 +1,4 @@
 macro_phase,records,target_records,record_coverage,unique_sources,minimum_unique_sources,source_coverage,passes_records,passes_sources
-1946-1987_taiwan_side_formation,128,700,0.183,95,300,0.317,0,0
+1946-1987_taiwan_side_formation,131,700,0.187,98,300,0.327,0,0
 1987-2015_cross_strait_diffusion,13,150,0.087,8,75,0.107,0,0
-2015-2025_internet_wanghong_capital,11,100,0.110,9,50,0.180,0,0
+2015-2025_internet_wanghong_capital,5,100,0.050,4,50,0.080,0,0

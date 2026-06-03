@@ -105,7 +105,7 @@ Run the current health audit:
 python3 scripts/audit_corpus_health.py \
   --attestations data/harvested/combined_attestations_working.csv \
   --negative data/negative_searches.csv \
-  --ownership data/capital_event_seed_2015_2025.csv \
+  --ownership data/ownership_capital_seed.csv \
   --out-csv reports/corpus_health.csv \
   --out-md reports/corpus_health.md \
   --out-flags reports/claim_flags.json
@@ -184,4 +184,3 @@ Final licensing should be confirmed before public release of any full corpus sna
 If you use this corpus design or pipeline, please cite:
 
 > Pan, D. *Corpus Engineering for the Geo-Historical Semantics of Taiwaneseness*. GitHub repository, 2026. https://github.com/dpan538/taiwaneseness-corpus-engineering
-

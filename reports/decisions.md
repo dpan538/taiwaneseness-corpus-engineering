@@ -49,6 +49,24 @@ auditable.
 - **Action taken**: Added 14 records in `data/harvested/taipei_southern_old_shop_batch_1946_1987_20260603_c.csv`, rebuilt the working corpus, and reran macro, formation-quota, health, writing-milestone, and binding-index audits. Two weaker rows remain candidate-level.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: Southern public-web top-up added non-duplicate Tainan and Kaohsiung old-shop evidence.
+- **Source / batch**: `HARVEST_014`.
+- **Decision**: Continue small source-grounded southern top-ups, but mark relative-date rows conservatively and do not duplicate prior shop/year/source attestations.
+- **Reason**: Tainan remains far below the city threshold and Kaohsiung remains short of threshold. The batch adds two Tainan records and one usable Kaohsiung record, while retaining one Kaohsiung relative-date row as candidate until a firmer founding source is found.
+- **Action taken**: Added four records in `data/harvested/tainan_kaohsiung_public_web_topup_1946_1987_20260603_d.csv`, appended them to the working corpus, fixed a pre-existing duplicate `attestation_id` for the Changhua Black Meat Noodles row, and reran macro, formation-quota, health, writing-milestone, and binding-index audits.
+- **Responsible reviewer**: project researcher.
+
+## 2026-06-03
+
+- **Alert**: Second southern top-up brought Kaohsiung to the city threshold while Tainan remains short.
+- **Source / batch**: `HARVEST_015`.
+- **Decision**: Treat Kaohsiung city coverage as provisionally threshold-complete for planning, and shift the next southern public-web pass mainly toward Tainan until it reaches 30 records.
+- **Reason**: The batch added non-duplicate Tainan and Kaohsiung corroboration/ecology rows. Kaohsiung reached 30 records, while Tainan rose to 15 records and remains below threshold.
+- **Action taken**: Added 11 records in `data/harvested/tainan_kaohsiung_public_web_topup_1946_1987_20260603_e.csv`, appended them to the working corpus, reran lightweight audits, verified CSV parsing, and checked duplicate `attestation_id` plus duplicate source/brand/year/type keys.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

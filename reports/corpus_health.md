@@ -1,21 +1,21 @@
 # Corpus Health Report
 
-Score: 54.35/100
+Score: 54.68/100
 
 Grade: D
 
 ## Summary
 
-- health_score: 54.35
+- health_score: 54.68
 - grade: D
-- usable_records: 181
-- unique_sources: 170
-- verification_quality: 94.27
+- usable_records: 185
+- unique_sources: 174
+- verification_quality: 94.39
 - duplicate_rate: 0.0
 - ownership_completeness: 93.75
-- ownership_matching_rate: 8.13
+- ownership_matching_rate: 7.87
 - negative_search_effort: 30.0
-- 1946_1987_coverage: 23.14
+- 1946_1987_coverage: 23.71
 - 1987_2015_coverage: 1.6
 - 2015_2025_coverage: 2.0
 
@@ -26,7 +26,7 @@ Grade: D
 | 1946_1987 | 1946-1959 | 38 | 0 |
 | 1946_1987 | 1960-1969 | 38 | 0 |
 | 1946_1987 | 1970-1979 | 43 | 0 |
-| 1946_1987 | 1980-1987 | 43 | 0 |
+| 1946_1987 | 1980-1987 | 47 | 0 |
 | 1987_2015 | 1988-1995 | 1 | 0 |
 | 1987_2015 | 1996-2005 | 5 | 0 |
 | 1987_2015 | 2006-2014 | 6 | 0 |
@@ -43,17 +43,17 @@ Grade: D
 | Latin America | 0 | 1 | 1 |
 | Mainland China | 5 | 0 | 0 |
 | Malaysia | 1 | 0 | 0 |
-| North America | 15 | 0 | 0 |
+| North America | 16 | 0 | 0 |
 | North China | 3 | 0 | 0 |
-| Singapore | 27 | 0 | 0 |
+| Singapore | 28 | 0 | 0 |
 | Vietnam | 0 | 1 | 1 |
 | Yangtze River Delta | 7 | 0 | 0 |
 
 ## Ownership Matching
 
-- unique brands in usable attestations: 123
+- unique brands in usable attestations: 127
 - brands matched to ownership events: 10
-- ownership_matching_rate: 8.13%
+- ownership_matching_rate: 7.87%
 - interpretation: below 30% means ownership analysis is exploratory only; below 70% blocks strong ownership-shift claims.
 
 

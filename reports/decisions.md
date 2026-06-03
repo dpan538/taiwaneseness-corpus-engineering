@@ -67,6 +67,15 @@ auditable.
 - **Action taken**: Added 11 records in `data/harvested/tainan_kaohsiung_public_web_topup_1946_1987_20260603_e.csv`, appended them to the working corpus, reran lightweight audits, verified CSV parsing, and checked duplicate `attestation_id` plus duplicate source/brand/year/type keys.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: City thresholds are provisionally complete, but the 1946-1987 layer remains far below the exploratory record threshold.
+- **Source / batch**: `HARVEST_018`.
+- **Decision**: Shift manual top-ups away from Tainan-only collection toward late-formation Taiwan-side records and overseas corridor evidence, while marking approximate retrospective dates as candidates.
+- **Reason**: Taipei, Tainan, and Kaohsiung have all reached the city threshold, but `usable_1946_1987` remains blocked. The weakest active quota areas include late Taiwan-side years, North America, Japan, Singapore, and mainland China.
+- **Action taken**: Added four non-duplicate records in `data/harvested/late_formation_corridor_topup_1946_1987_20260603_h.csv`, appended them to the working corpus, and upgraded the existing Yumama old noodle shop row from candidate to probable after recapturing the ROC-year source line.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

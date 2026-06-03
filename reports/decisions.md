@@ -31,6 +31,15 @@ auditable.
 - **Action taken**: Generated 1,008 archive-search instructions, registered 29 source targets, logged negative-search effort for Korea, Vietnam, and Latin America, added a four-record Tainan batch, rebuilt `combined_attestations_working.csv`, and reran macro, formation-quota, corpus-health, writing-milestone, and binding-index audits.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: Southern Taiwan early-bin top-up changed the temporal-balance status.
+- **Source / batch**: `HARVEST_012`.
+- **Decision**: Mark the 1946-1987 internal time-bin distribution as provisionally balanced for exploratory planning, while keeping the full historical layer blocked for analysis because total usable records remain far below threshold.
+- **Reason**: The top-up batch raised the 1946-1959 bin from 19 to 22 usable records, so all four 1946-1987 bins now have at least 20 records. However, the 1946-1987 layer has only 116 usable records against the 350 exploratory threshold and 600 stronger-claim threshold.
+- **Action taken**: Added three southern market/old-shop records from Kaohsiung Travel, TVBS Food Player, and TaiwanFoodie; rebuilt the combined corpus; reran macro, formation-quota, health, writing-milestone, and binding-index audits.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

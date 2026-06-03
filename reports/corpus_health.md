@@ -1,21 +1,21 @@
 # Corpus Health Report
 
-Score: 45.55/100
+Score: 50.57/100
 
 Grade: D
 
 ## Summary
 
-- health_score: 45.55
+- health_score: 50.57
 - grade: D
-- usable_records: 128
-- unique_sources: 117
-- verification_quality: 94.81
+- usable_records: 132
+- unique_sources: 121
+- verification_quality: 94.96
 - duplicate_rate: 0.0
-- ownership_completeness: 0.0
-- ownership_matching_rate: 0.0
-- negative_search_effort: 0.0
-- 1946_1987_coverage: 15.57
+- ownership_completeness: 93.75
+- ownership_matching_rate: 10.75
+- negative_search_effort: 30.0
+- 1946_1987_coverage: 16.14
 - 1987_2015_coverage: 1.6
 - 2015_2025_coverage: 2.0
 
@@ -23,8 +23,8 @@ Grade: D
 
 | phase | time_bin | usable_records | is_empty |
 | --- | --- | --- | --- |
-| 1946_1987 | 1946-1959 | 18 | 0 |
-| 1946_1987 | 1960-1969 | 19 | 0 |
+| 1946_1987 | 1946-1959 | 19 | 0 |
+| 1946_1987 | 1960-1969 | 22 | 0 |
 | 1946_1987 | 1970-1979 | 34 | 0 |
 | 1946_1987 | 1980-1987 | 38 | 0 |
 | 1987_2015 | 1988-1995 | 1 | 0 |
@@ -39,21 +39,21 @@ Grade: D
 | corridor | usable_records | has_negative_search_log | claim_absence_allowed |
 | --- | --- | --- | --- |
 | Japan | 13 | 0 | 0 |
-| Korea | 0 | 0 | 0 |
-| Latin America | 0 | 0 | 0 |
+| Korea | 0 | 1 | 1 |
+| Latin America | 0 | 1 | 1 |
 | Mainland China | 5 | 0 | 0 |
 | Malaysia | 1 | 0 | 0 |
 | North America | 14 | 0 | 0 |
 | North China | 3 | 0 | 0 |
 | Singapore | 27 | 0 | 0 |
-| Vietnam | 0 | 0 | 0 |
+| Vietnam | 0 | 1 | 1 |
 | Yangtze River Delta | 7 | 0 | 0 |
 
 ## Ownership Matching
 
-- unique brands in usable attestations: 90
-- brands matched to ownership events: 0
-- ownership_matching_rate: 0.00%
+- unique brands in usable attestations: 93
+- brands matched to ownership events: 10
+- ownership_matching_rate: 10.75%
 - interpretation: below 30% means ownership analysis is exploratory only; below 70% blocks strong ownership-shift claims.
 
 

@@ -250,7 +250,7 @@ def main() -> None:
         "can_make_macro_historical_claims": phase_grade in {"A", "B"},
         "can_compare_regions": all(n >= 30 for n in corridor_counts.values()) if corridor_counts else False,
         "can_compare_periods": all(v >= 70 for v in phase_coverage.values()),
-        "can_analyze_ownership_shift": ownership_complete >= 60,
+        "can_analyze_ownership_shift": ownership_complete >= 60 and ownership_matching_rate >= 70,
         "can_analyze_platformization": phase_coverage["2015_2025"] >= 60,
         "can_publish_quantitative_tables": phase_grade in {"A", "B"} and score >= 70,
     }

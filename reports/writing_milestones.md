@@ -7,15 +7,15 @@
 | M1_method_write_ready | pass | negative_search_Korea | present | present |  |
 | M1_method_write_ready | pass | negative_search_Vietnam | present | present |  |
 | M1_method_write_ready | pass | negative_search_Latin America | present | present |  |
-| M2_1946_1987_exploratory_ready | fail | usable_1946_1987 | 141 | >=350 |  |
-| M2_1946_1987_exploratory_ready | pass | verified_probable_share | 93.57 | >=60% |  |
+| M2_1946_1987_exploratory_ready | fail | usable_1946_1987 | 158 | >=350 |  |
+| M2_1946_1987_exploratory_ready | pass | verified_probable_share | 94.15 | >=60% |  |
 | M2_1946_1987_exploratory_ready | pass | time_bins_ge_20 | 4 | >=3 |  |
 | M2_1946_1987_exploratory_ready | pass | Taipei_records | 30 | >=30 |  |
-| M2_1946_1987_exploratory_ready | fail | Tainan_records | 15 | >=30 |  |
+| M2_1946_1987_exploratory_ready | pass | Tainan_records | 32 | >=30 |  |
 | M2_1946_1987_exploratory_ready | pass | Kaohsiung_records | 30 | >=30 |  |
-| M2b_1946_1987_stronger_claim_ready | fail | usable_1946_1987 | 141 | >=600 |  |
-| M2b_1946_1987_stronger_claim_ready | pass | verified_probable_share | 93.57 | >=80% |  |
-| M2b_1946_1987_stronger_claim_ready | pass | all_time_bins_ge_20 | {'1960-1969': 33, '1970-1979': 38, '1980-1987': 41, '1946-1959': 29} | all four >=20 |  |
+| M2b_1946_1987_stronger_claim_ready | fail | usable_1946_1987 | 158 | >=600 |  |
+| M2b_1946_1987_stronger_claim_ready | pass | verified_probable_share | 94.15 | >=80% |  |
+| M2b_1946_1987_stronger_claim_ready | pass | all_time_bins_ge_20 | {'1960-1969': 37, '1970-1979': 43, '1980-1987': 42, '1946-1959': 36} | all four >=20 |  |
 | M3_1987_2015_exploratory_ready | fail | usable_1987_2015 | 12 | >=400 |  |
 | M3_1987_2015_exploratory_ready | fail | mainland_corridors_ge_50 | {'Taiwan-side': 5, 'Yangtze River Delta': 4, 'North China': 3} | >=3 corridors |  |
 | M3_1987_2015_exploratory_ready | fail | time_bins_ge_100 | {'1988-1995': 1, '1996-2005': 5, '2006-2014': 6} | >=2 bins |  |

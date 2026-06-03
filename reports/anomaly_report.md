@@ -1,15 +1,15 @@
 # Corpus Anomaly Report
 
-Generated: 2026-06-03T20:02:48
+Generated: 2026-06-03T20:29:56
 
 ## Summary
 
-- total_rows: 405
+- total_rows: 455
 - exact_duplicate_rows: 0
 - suspicious_split_groups: 0
 - year_outliers: 0
 - marker_issues: 0
-- high_concentration_sources: 1
+- high_concentration_sources: 0
 - low_conf_verified_rows: 0
 - low_conf_probable_rows: 1
 - short_text_rows: 0
@@ -32,9 +32,9 @@ Generated: 2026-06-03T20:02:48
 
 | level | count | ratio |
 | --- | --- | --- |
-| probable | 357 | 0.8815 |
-| (blank) | 25 | 0.0617 |
-| candidate | 23 | 0.0568 |
+| probable | 390 | 0.8571 |
+| candidate | 40 | 0.0879 |
+| (blank) | 25 | 0.0549 |
 
 ## Detailed Files
 
@@ -50,5 +50,4 @@ Generated: 2026-06-03T20:02:48
 
 ## Recommendations
 
-- Add source-diverse records or downweight concentrated sources in interpretation.
 - Review low-confidence probable rows and demote if needed.

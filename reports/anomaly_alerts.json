@@ -4,7 +4,6 @@
   "has_alerts": true,
   "critical": {},
   "warnings": {
-    "high_concentration_sources": 1,
     "low_conf_probable_rows": 1
   }
 }

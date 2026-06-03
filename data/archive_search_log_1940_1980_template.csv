@@ -1,0 +1,4 @@
+search_id,database,search_date,date_start,date_end,search_term,script_variant,result_count,earliest_hit_date,earliest_hit_title,earliest_hit_source,notes
+ARCH_SEARCH_001,臺灣日日新報,2026-06-03,1940,1945,魯肉飯,traditional,,,,,"Template row; fill after archive search."
+ARCH_SEARCH_002,臺灣新生報,2026-06-03,1946,1949,滷肉飯,traditional,,,,,"Template row; fill after archive search."
+ARCH_SEARCH_003,聯合知識庫,2026-06-03,1950,1978,魯肉飯,traditional,,,,,"Template row; fill after archive search."

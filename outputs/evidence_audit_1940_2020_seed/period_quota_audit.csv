@@ -1,0 +1,8 @@
+period,usable_attestations,target_attestations,coverage_ratio,meets_half_quota,meets_full_quota
+1940-1945_late_colonial_food_order,0,15,0.000,0,0
+1946-1949_postwar_transition,0,15,0.000,0,0
+1950-1978_taiwan_side_popular_food,4,35,0.114,0,0
+1979-1987_brand_formalization_and_reopening,3,20,0.150,0,0
+1988-2001_cross_strait_mobility,4,30,0.133,0,0
+2002-2013_taiwan_capital_gateway,8,40,0.200,0,0
+2014-2020_pre_wanghong_platformization,6,50,0.120,0,0

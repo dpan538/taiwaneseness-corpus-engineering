@@ -1,0 +1,8 @@
+{
+  "can_make_macro_historical_claims": false,
+  "can_compare_regions": false,
+  "can_compare_periods": false,
+  "can_analyze_ownership_shift": false,
+  "can_analyze_platformization": false,
+  "can_publish_quantitative_tables": false
+}

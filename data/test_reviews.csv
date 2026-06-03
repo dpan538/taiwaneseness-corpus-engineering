@@ -1,0 +1,3 @@
+review_id,merchant_id,city,platform,review_date,rating,review_text,capture_date,geographic,nostalgia,night_market,authenticity,platform_fast_food,consumer_interpretation,uncertainty_note
+R_TEST_001,M_TEST_001,Shanghai,Dianping,2026-06-03,4,说是台湾卤肉饭，味道还可以，套餐便宜出餐快，适合工作餐。,2026-06-03,0,0,0,0,0,,
+R_TEST_002,M_TEST_001,Shanghai,Dianping,2026-06-03,3,不像台北夜市吃到的那种，不过性价比不错。,2026-06-03,0,0,0,0,0,,

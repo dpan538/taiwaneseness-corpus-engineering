@@ -1,0 +1,8 @@
+quota_id,period,period_start,period_end,target_attestations,priority_regions,priority_source_types,core_search_terms,notes
+Q001,1940-1945_late_colonial_food_order,1940,1945,15,Taiwan-side,newspaper_archive;recipe;market_record,"魯肉飯;滷肉飯;肉燥飯;肉臊飯;滷肉;魯肉;小吃;市場;飯攤","Hard archive layer. Negative evidence requires logged search counts."
+Q002,1946-1949_postwar_transition,1946,1949,15,Taiwan-side,newspaper_archive;recipe;market_record,"魯肉飯;滷肉飯;肉燥飯;台菜;臺菜;路邊攤;小吃","Focus on food hierarchy after KMT takeover."
+Q003,1950-1978_taiwan_side_popular_food,1950,1978,35,Taiwan-side,newspaper_archive;brand_history;photo_archive;food_history,"魯肉飯;滷肉飯;肉燥飯;雙連;圓環;寧夏;華西街;台北小吃;路邊攤","Build robust Taiwan-side origin and stall/store geography."
+Q004,1979-1987_brand_formalization_and_reopening,1979,1987,20,Taiwan-side,newspaper_archive;brand_history;trademark;business_record,"鬍鬚張;魯肉飯;滷肉飯;台菜餐廳;服務標章;分店;連鎖","Track formalization and restaurantization."
+Q005,1988-2001_cross_strait_mobility,1988,2001,30,Taiwan-side;Shanghai;Beijing;PRD,business_registry;newspaper_archive;media_report,"台商餐飲;台資餐飲;台湾菜;台式;台湾小吃;仙踪林;永和豆浆;呷哺呷哺","Track capital and Taiwan-style chain mobility, not only lu rou fan."
+Q006,2002-2013_taiwan_capital_gateway,2002,2013,40,Shanghai/YRD;Beijing;PRD;Fujian,business_registry;brand_history;event_media;platform_archive,"一茶一坐;台湾菜 上海;台式卤肉饭;台味;世博 台式卤肉饭;台湾餐饮 连锁","Shanghai/YRD gateway and Expo/event visibility."
+Q007,2014-2020_pre_wanghong_platformization,2014,2020,50,Shanghai/YRD;Beijing;PRD;Fujian;Central China,platform_listing;menu;review;food_media;retail_media,"台湾卤肉饭;台式卤肉饭;古早味卤肉饭;台湾料理 卤肉饭;台湾风味 卤肉;肉燥饭 上海","Pre-wanghong mainland lu rou fan visibility and retail flavor commodification."

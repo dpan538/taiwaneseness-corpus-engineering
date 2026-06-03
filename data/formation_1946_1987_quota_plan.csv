@@ -1,0 +1,13 @@
+quota_id,region_scope,region,country_or_area,years,target_records,minimum_unique_sources,source_families,core_terms,notes
+FQ001,core,Taiwan-side,Taiwan,1946-1949,45,25,"臺灣新生報;公論報;中國時報;地方報;recipe/menu archives","魯肉飯;滷肉飯;肉燥飯;肉臊飯;滷肉;台菜;臺菜;小吃;路邊攤","Postwar transition and food hierarchy."
+FQ002,core,Taiwan-side,Taiwan,1950-1959,95,45,"聯合報;中國時報;公論報;自立晚報;photo archives;cookbooks","魯肉飯;滷肉飯;肉燥飯;雙連;圓環;夜市;小吃;飯攤","Hard but crucial decade."
+FQ003,core,Taiwan-side,Taiwan,1960-1969,115,55,"聯合報;中國時報;brand histories;商標 records;local gazetteers","鬍鬚張;魯肉飯;滷肉飯;肉燥飯;台北小吃;華西街;雙連;圓環","Build around 1960s stall/shop emergence."
+FQ004,core,Taiwan-side,Taiwan,1970-1978,115,55,"聯合報;中國時報;photo archives;food columns;market records","魯肉飯;滷肉飯;肉燥飯;寧夏;華西街;夜市;便當;小吃","Urban stall geography and store formation."
+FQ005,core,Taiwan-side,Taiwan,1979-1987,95,45,"聯合報;中國時報;商標 records;business records;brand timelines","鬍鬚張;分店;服務標章;魯肉飯;台菜餐廳;阿才的店;連鎖","Brand formalization and restaurantization."
+FQ006,core,Mainland China,China,1946-1987,55,30,"人民日報;地方志;Chinese newspaper archives;library catalogs","台灣菜;台湾菜;台式;台湾小吃;台胞;台商;台湾饭店","Likely sparse before 1987; log absences carefully."
+FQ007,comparative_asia,Japan,Japan,1946-1987,45,25,"NDL;CiNii;J-STAGE;Tokyo restaurant histories;Japanese newspapers","台湾料理;臺灣料理;台湾菜;台湾家庭料理;台湾小皿料理","Tokyo Taiwanese cuisine and authenticity history."
+FQ008,comparative_asia,Singapore,Singapore,1946-1987,40,20,"NewspaperSG;NLB;restaurant histories;Goldleaf;Gu Zao Ren","Taiwan porridge;Taiwanese porridge;台湾粥;台湾餐厅;Taiwan restaurant","Taiwanese porridge as overseas Taiwan-food form."
+FQ009,comparative_asia,Vietnam,Vietnam,1946-1987,20,10,"Vietnam newspaper archives;Taiwan trade/community sources;library catalogs","台湾餐厅;台湾菜;Taiwanese restaurant;Đài Loan nhà hàng","May be sparse; keep as exploratory."
+FQ010,comparative_asia,Korea,South Korea,1946-1987,15,8,"Korean newspaper archives;Naver News Library;academic sources","대만 음식;대만 요리;Taiwanese restaurant;台湾料理","Exploratory comparative Asia."
+FQ011,comparative_americas,North America,United States/Canada,1946-1987,60,35,"Newspapers.com;ProQuest;Chronicling America;CHSA;local Chinese-American histories","Taiwanese restaurant;Taiwan restaurant;Formosa restaurant;Taiwanese cuisine","Separate Taiwanese-owned Chinese restaurants from Taiwanese cuisine."
+FQ012,comparative_americas,Latin America,Americas,1946-1987,5,3,"newspaper archives;Taiwan diaspora sources","Taiwanese restaurant;restaurante taiwanés;Formosa restaurant","Low-priority exploratory."

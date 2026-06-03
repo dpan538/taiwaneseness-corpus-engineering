@@ -1,0 +1,30 @@
+city,province,macro_region,corridor,coastal_status,latitude,longitude,notes
+Shanghai,Shanghai,East China,Yangtze River Delta,coastal,31.2304,121.4737,Major gateway city and current seed focus.
+Nanjing,Jiangsu,East China,Yangtze River Delta,inland_yangtze,32.0603,118.7969,Jiangsu provincial capital; YRD corridor.
+Suzhou,Jiangsu,East China,Yangtze River Delta,inland_yangtze,31.2989,120.5853,YRD city near Shanghai.
+Wuxi,Jiangsu,East China,Yangtze River Delta,inland_yangtze,31.4912,120.3119,YRD city near Shanghai.
+Changzhou,Jiangsu,East China,Yangtze River Delta,inland_yangtze,31.8122,119.9692,YRD corridor.
+Taizhou,Jiangsu,East China,Yangtze River Delta,inland_yangtze,32.4558,119.9231,Jiangsu YRD-adjacent city.
+Yancheng,Jiangsu,East China,Yangtze River Delta,coastal,33.3473,120.1637,Jiangsu coastal city.
+Yangzhou,Jiangsu,East China,Yangtze River Delta,inland_yangtze,32.3942,119.4129,Jiangsu YRD-adjacent city.
+Nantong,Jiangsu,East China,Yangtze River Delta,coastal,31.9802,120.8943,Jiangsu coastal/YRD city.
+Hangzhou,Zhejiang,East China,Yangtze River Delta,inland_yangtze,30.2741,120.1551,Zhejiang provincial capital; YRD corridor.
+Ningbo,Zhejiang,East China,Yangtze River Delta,coastal,29.8683,121.5440,Zhejiang coastal/YRD city.
+Wenzhou,Zhejiang,East China,Coastal Southeast,coastal,27.9949,120.6994,Zhejiang coastal city with southeastern links.
+Taizhou_ZJ,Zhejiang,East China,Coastal Southeast,coastal,28.6564,121.4208,Zhejiang coastal city; disambiguated from Jiangsu Taizhou.
+Yiwu,Zhejiang,East China,Yangtze River Delta,inland_yangtze,29.3069,120.0753,Zhejiang trade city.
+Jinhua,Zhejiang,East China,Yangtze River Delta,inland_yangtze,29.0791,119.6474,Zhejiang YRD-adjacent city.
+Shenzhen,Guangdong,South China,Pearl River Delta,coastal,22.5431,114.0579,Coastal PRD city.
+Guangzhou,Guangdong,South China,Pearl River Delta,coastal,23.1291,113.2644,PRD provincial capital.
+Xiamen,Fujian,East China,Cross-Strait Southeast,coastal,24.4798,118.0894,Fujian coastal/cross-strait city.
+Fuzhou,Fujian,East China,Cross-Strait Southeast,coastal,26.0745,119.2965,Fujian provincial capital.
+Beijing,Beijing,North China,North China,inland,39.9042,116.4074,National capital; northern high-visibility market.
+Wuhan,Hubei,Central China,Central China,inland,30.5928,114.3055,Central China hub.
+Zhengzhou,Henan,Central China,Central China,inland,34.7466,113.6254,Central plains hub.
+Chengdu,Sichuan,Southwest China,Southwest,inland,30.5728,104.0668,Southwest urban consumer market.
+Xian,Shaanxi,Northwest China,Northwest,inland,34.3416,108.9398,Northwest hub.
+Nanning,Guangxi,South China,Southwest/South China,inland,22.8170,108.3669,Southwest/South China regional capital.
+Changchun,Jilin,Northeast China,Northeast,inland,43.8171,125.3235,Northeast market.
+Shenyang,Liaoning,Northeast China,Northeast,inland,41.8057,123.4315,Northeast hub.
+Hefei,Anhui,East China,Inland East,inland,31.8206,117.2272,Inland East China city.
+Hohhot,Inner Mongolia,North China,North China,inland,40.8426,111.7492,Representing Inner Mongolia/塞罕万达 seed.

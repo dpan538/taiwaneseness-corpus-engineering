@@ -1,0 +1,6 @@
+period,attestation_count,binding_rate,mean_geographic_score,mean_nostalgia_score,mean_night_market_score,mean_authenticity_score,mean_platform_fast_food_score
+1950-1978_taiwan_side_popular_food,4,1.000000,0.041525,0.000000,0.027972,0.000000,0.000000
+1979-1987_brand_formalization_and_reopening,3,0.666667,0.068413,0.000000,0.011905,0.000000,0.000000
+1988-2001_cross_strait_mobility,4,0.500000,0.045541,0.000000,0.000000,0.000000,0.053606
+2002-2013_taiwan_capital_gateway,8,0.500000,0.056109,0.000000,0.011623,0.003289,0.018532
+2014-2020_pre_wanghong_platformization,6,1.000000,0.053456,0.004902,0.000000,0.000000,0.005952

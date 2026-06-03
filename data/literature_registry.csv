@@ -1,0 +1,22 @@
+ref_id,priority,cluster,author_year,short_title,use_in_paper,status_notes
+LIT_001,must,theory,Chen 2020,Cultural history of Taiwanese cuisine,"Core theory for dish nationality and historical construction of Taiwanese cuisine; use in introduction and literature review.",Verify exact English title and citation format.
+LIT_002,must,theory,Chen 2010,Authenticity of Taiwanese cuisine in Tokyo,"Producer-consumer authenticity tension; supports consumer stance and platform reinterpretation.",Verify exact title journal issue pages.
+LIT_003,strong,theory,Chen 2010,Bodily memory and Taiwanese cuisine,"Warns against reducing Taiwanese cuisine preference to national consciousness; supports stance nuance.",Verify bibliographic details.
+LIT_004,strong,theory,Chen 2015,Ethnic politics and national cuisine,"Supports national cuisine framing and target journal fit with Food and Foodways.",Verify final citation.
+LIT_005,strong,theory,Fu 2015,Making of Taiwanese cuisine since 1980s,"Supports 1987/1980s periodization and democratic transition context.",Verify final citation.
+LIT_006,must,theory,Billig 1995,Banal Nationalism,"Theoretical vocabulary for everyday symbolic flagging in food discourse.",Stable classic citation.
+LIT_007,selective,history,Hsu 2013,History and culture of Taiwanese cuisine,"Historical background on unstable definition of Taiwanese cuisine.",Verify thesis citation.
+LIT_008,selective,method,Tang 2019,Text mining Changhua kong rou fan,"Precedent for text mining and Taiwanese local food identity.",Verify thesis citation.
+LIT_009,must,method,McGillivray and Toth 2020,Applying language technology in humanities research,"Core methodology source for transparent computational humanities design.",Verify title accents and publisher details.
+LIT_010,must,method,Moretti 2013,Distant Reading,"Classic distant-reading frame for macro-pattern analysis.",Stable classic citation.
+LIT_011,strong,method,FoodImagine,Corpus methodology,"Parallel food-corpus case combining close and distant reading.",Verify URL and access date.
+LIT_012,selective,method,Xu and Wang 2021,Corpus linguistics and digital humanities,"Supports corpus-driven digital humanities framing.",Verify Chinese citation.
+LIT_013,selective,method,Huang and Wang 2021,Corpus research review,"Supports deep annotation and corpus quality control.",Verify Chinese citation.
+LIT_014,strong,method,Forstall and Scheirer 2019,Quantitative intertextuality,"Supports cross-textual similarity without direct citation.",Verify chapter details.
+LIT_015,selective,method,Duan 2025,Quantitative intertextuality survey,"Optional newer survey; use carefully if preprint only.",Verify existence and status.
+LIT_016,strong,platform,Leer and Krogager 2021,Research Methods in Digital Food Studies,"Positions platform restaurant/review analysis in digital food studies.",Verify publisher and title.
+LIT_017,strong,platform,Lin Huang Chen 2024,Ethnic congruence and authenticity,"Behavioral support for ethnic marker effects on perceived authenticity/taste.",Verify British Food Journal volume issue pages.
+LIT_018,strong,platform,Lin 2022,Bubble tea and Taiwan-Vietnam mobility,"Supports border/de-border framing and overseas Taiwan food signs.",Verify citation.
+LIT_019,selective,theory,Johnston and Baumann 2015,Foodies,"Authenticity as cultural distinction; useful in discussion.",Stable citation.
+LIT_020,selective,platform,Chang 2025,Taiwanese gastrodiplomacy and algorithmic suppression,"Possible platform-visibility context; use only after verification.",Verify arXiv existence authorship and suitability.
+

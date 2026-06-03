@@ -1,0 +1,62 @@
+{
+  "1940-1945_late_colonial_food_order": {
+    "start_year": 1940,
+    "end_year": 1945,
+    "label": "Late colonial food-order regime",
+    "interpretation": "Taiwan-side local food practices exist within late Japanese colonial food, market, and wartime scarcity conditions; lu rou fan terminology must be mined from newspapers, cookbooks, and market records rather than assumed."
+  },
+  "1946-1949_postwar_transition": {
+    "start_year": 1946,
+    "end_year": 1949,
+    "label": "Postwar transition regime",
+    "interpretation": "Taiwan's food system is reorganized after Japanese colonial rule and KMT takeover; local Taiwanese foods remain socially marked against elite Chinese regional cuisines."
+  },
+  "1950-1978_taiwan_side_popular_food": {
+    "start_year": 1950,
+    "end_year": 1978,
+    "label": "Taiwan-side popular-food and stall-to-shop regime",
+    "interpretation": "Lu rou fan develops mainly within Taiwan-side street-stall, market, and popular-food discourse, while mainland public-commercial circulation remains structurally limited."
+  },
+  "1979-1987_brand_formalization_and_reopening": {
+    "start_year": 1979,
+    "end_year": 1987,
+    "label": "Brand formalization and latent-contact regime",
+    "interpretation": "Taiwan-side lu rou fan vendors begin formalizing into branches and brands, while mainland economic opening creates background conditions but not yet large-scale direct cross-strait food commerce."
+  },
+  "1988-2001_cross_strait_mobility": {
+    "start_year": 1988,
+    "end_year": 2001,
+    "label": "Cross-strait mobility and Taiwanese-food recognition regime",
+    "interpretation": "Cross-strait travel, investment, and media contact make Taiwan food more legible, but lu rou fan is not yet a dominant mainland platform commodity."
+  },
+  "2002-2013_taiwan_capital_gateway": {
+    "start_year": 2002,
+    "end_year": 2013,
+    "label": "Taiwan-capital casual-dining gateway regime",
+    "interpretation": "Taiwanese restaurant chains enter mainland cities through Shanghai/YRD and major urban commercial districts. Taiwaneseness is framed as leisure dining, chain management, and broad Taiwanese cuisine."
+  },
+  "2014-2020_hk_taiwan_authenticity": {
+    "start_year": 2014,
+    "end_year": 2020,
+    "label": "Hong Kong/Taiwan authenticity and night-market regime",
+    "interpretation": "Hong Kong or Taiwan-linked brands stage Taiwaneseness through founder/chef origin stories, night-market food, and authenticity claims."
+  },
+  "2021-2023_mainland_platform_transition": {
+    "start_year": 2021,
+    "end_year": 2023,
+    "label": "Mainland Taiwan-themed platform transition regime",
+    "interpretation": "Mainland-origin Taiwan-themed brands and platform-visible small-store formats narrow Taiwanese cuisine into rice bowls, snacks, and chainable lunch formats."
+  },
+  "2024-2025_lu_rou_fan_wanghong_boom": {
+    "start_year": 2024,
+    "end_year": 2025,
+    "label": "Lu rou fan wanghong and value-platform boom regime",
+    "interpretation": "Taiwanese lu rou fan becomes a specialized rice-bowl category shaped by price/value discourse, mall expansion, platform visibility, Michelin/award authority, prepared-food standardization tensions, and consumer-downgrade narratives."
+  },
+  "2026_retrospective_context_only": {
+    "start_year": 2026,
+    "end_year": 2026,
+    "label": "Retrospective context only",
+    "interpretation": "Use 2026 sources only when they retrospectively document developments through 2025 or when clearly marked as outside the main analytical window."
+  }
+}

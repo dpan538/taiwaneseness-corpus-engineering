@@ -1,0 +1,2 @@
+record_id,data_layer,city,platform,source_type,source_name,source_url,capture_date,date_of_text,keyword_query,access_method,fields_collected,notes
+example_001,merchant,Shanghai,Dianping,shop_page,Example Taiwanese Lu Rou Fan,https://example.com,2026-06-03,,台湾 卤肉饭,manual,"shop_name;merchant_description;menu_items;tags;visual_notes","Pilot example only"

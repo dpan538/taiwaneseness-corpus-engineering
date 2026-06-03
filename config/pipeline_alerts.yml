@@ -1,0 +1,67 @@
+# Lightweight alert thresholds for corpus construction.
+#
+# These rules document when a script should warn, pause, or require a human
+# decision. The current implementation writes JSONL alerts; it does not send
+# email by default.
+
+collection:
+  api_consecutive_failures:
+    threshold: 3
+    severity: critical
+    action: pause_source_and_check_api_key_ip_quota
+  response_seconds:
+    threshold: 30
+    severity: warning
+    action: increase_delay_or_switch_to_manual_capture
+  suspicious_file_size_bytes:
+    threshold: 10000
+    severity: warning
+    action: mark_broken_and_redownload
+
+ocr:
+  low_confidence_mean:
+    threshold: 0.30
+    severity: warning
+    action: sample_pages_and_adjust_ocr_parameters
+  short_text_chars:
+    threshold: 20
+    severity: warning
+    action: inspect_image_quality_or_manual_transcription
+  slow_page_seconds:
+    threshold: 60
+    severity: warning
+    action: log_and_continue
+
+extraction:
+  zero_binding_after_candidates:
+    threshold: 100
+    severity: critical
+    action: inspect_regex_ocr_quality_and_keyword_coverage
+  candidate_rows_per_capture:
+    threshold: 500
+    severity: warning
+    action: sample_capture_and_decide_if_source_is_appropriate
+
+verification:
+  verified_ratio_low:
+    threshold: 0.10
+    severity: warning
+    action: pause_source_and_review_quality
+  auto_human_agreement_low:
+    threshold: 0.70
+    severity: warning
+    action: revise_verification_rules
+
+health:
+  duplicate_rate_high:
+    threshold: 0.30
+    severity: critical
+    action: inspect_dedupe_logic_or_ad_frequency_exception
+  ownership_matching_rate_low:
+    threshold: 0.30
+    severity: warning
+    action: label_ownership_analysis_exploratory
+  missing_negative_search_log:
+    severity: warning
+    action: add_negative_search_or_avoid_absence_claim
+

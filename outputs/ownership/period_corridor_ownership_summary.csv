@@ -1,0 +1,9 @@
+period,corridor,ownership_category,attestation_count,binding_rate,mean_geographic_score,mean_nostalgia_score,mean_night_market_score,mean_authenticity_score,mean_platform_fast_food_score
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,taiwan_mainland_joint_venture,2,0.000000,0.028295,0.000000,0.000000,0.000000,0.028295
+2002-2013_taiwan_capital_gateway,North China,taiwan_mainland_joint_venture,1,0.000000,0.025641,0.000000,0.000000,0.000000,0.051282
+2014-2020_hk_taiwan_authenticity,Hong Kong,hong_kong_intermediary,1,1.000000,0.078431,0.000000,0.019608,0.019608,0.000000
+2021-2023_mainland_platform_transition,Yangtze River Delta,mainland_taiwan_themed,1,1.000000,0.102564,0.000000,0.051282,0.000000,0.025641
+2024-2025_lu_rou_fan_wanghong_boom,Yangtze River Delta,mainland_taiwan_themed,2,1.000000,0.049390,0.000000,0.024695,0.000000,0.049390
+2024-2025_lu_rou_fan_wanghong_boom,Yangtze River Delta,hong_kong_intermediary,1,1.000000,0.054054,0.000000,0.027027,0.054054,0.027027
+2026_retrospective_context_only,Yangtze River Delta,hong_kong_intermediary,1,1.000000,0.044444,0.000000,0.000000,0.000000,0.022222
+2026_retrospective_context_only,Central China,hong_kong_intermediary,1,1.000000,0.020833,0.000000,0.000000,0.020833,0.041667

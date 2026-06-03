@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local/private config
+configs/cookies.json
+config/cookies.json
+*.env
+.env
+
+# Raw or restricted captures
+raw/
+data/raw/
+raw_capture_manifest.jsonl
+raw/manifests/
+
+# OCR and large derived artifacts
+raw/ocr/
+*.tif
+*.tiff
+
+# Private Word drafts and local exports
+*.docx
+*.doc
+*.pdf
+~$*
+
+# Temporary files
+*.tmp
+*.log
+tmp/
+temp/
+

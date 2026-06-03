@@ -1,0 +1,6 @@
+period,attestation_count,binding_rate,mean_geographic_score,mean_nostalgia_score,mean_night_market_score,mean_authenticity_score,mean_platform_fast_food_score
+2002-2013_taiwan_capital_gateway,3,0.000000,0.056406,0.000000,0.000000,0.000000,0.036975
+2014-2020_hk_taiwan_authenticity,1,1.000000,0.078431,0.000000,0.019608,0.019608,0.000000
+2021-2023_mainland_platform_transition,1,1.000000,0.102564,0.000000,0.051282,0.000000,0.025641
+2024-2025_lu_rou_fan_wanghong_boom,3,1.000000,0.050945,0.000000,0.025472,0.018018,0.041936
+2026_retrospective_context_only,2,1.000000,0.032639,0.000000,0.000000,0.010417,0.031945

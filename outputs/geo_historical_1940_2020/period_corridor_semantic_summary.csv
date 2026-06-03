@@ -1,0 +1,11 @@
+period,corridor,attestation_count,binding_rate,mean_geographic_score,mean_nostalgia_score,mean_night_market_score,mean_authenticity_score,mean_platform_fast_food_score
+1950-1978_taiwan_side_popular_food,Taiwan-side,4,1.000000,0.041525,0.000000,0.027972,0.000000,0.000000
+1979-1987_brand_formalization_and_reopening,Taiwan-side,3,0.666667,0.068413,0.000000,0.011905,0.000000,0.000000
+1988-2001_cross_strait_mobility,Taiwan-side,2,1.000000,0.032258,0.000000,0.000000,0.000000,0.048387
+1988-2001_cross_strait_mobility,Yangtze River Delta,1,0.000000,0.058824,0.000000,0.000000,0.000000,0.058824
+1988-2001_cross_strait_mobility,North China,1,0.000000,0.058824,0.000000,0.000000,0.000000,0.058824
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,3,0.333333,0.060530,0.000000,0.000000,0.000000,0.032752
+2002-2013_taiwan_capital_gateway,Taiwan-side,3,0.666667,0.061153,0.000000,0.030994,0.008772,0.000000
+2002-2013_taiwan_capital_gateway,North China,2,0.500000,0.041912,0.000000,0.000000,0.000000,0.025000
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,3,1.000000,0.060114,0.009804,0.000000,0.000000,0.000000
+2014-2020_pre_wanghong_platformization,Taiwan-side,3,1.000000,0.046798,0.000000,0.000000,0.000000,0.011905

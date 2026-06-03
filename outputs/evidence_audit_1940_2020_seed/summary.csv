@@ -1,0 +1,6 @@
+metric,value,target,passes
+usable_attestations,25,200,0
+unique_sources,14,100,0
+period_target_total,205,205,1
+all_periods_half_quota,0,1,0
+inference_ready,0,1,0

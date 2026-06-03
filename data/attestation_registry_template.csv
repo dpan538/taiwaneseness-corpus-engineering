@@ -1,0 +1,2 @@
+attestation_id,source_id,verification_level,period,year,date,brand_or_category,city,region,source_type,attestation_type,original_text,text_for_scoring,dish_marker,taiwan_marker,ownership_category,capital_origin,source_url_or_archive_ref,notes
+ATT_0001,SRC_0001,candidate,1940-1945_late_colonial_food_order,,,,Taipei,Taiwan-side,newspaper_archive,,,,,,,,,"Template row."

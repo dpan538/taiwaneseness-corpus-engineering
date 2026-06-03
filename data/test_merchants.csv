@@ -1,0 +1,2 @@
+merchant_id,city,platform,shop_name,branch_name,source_url,capture_date,platform_tags,merchant_description,menu_item_names,recommended_dishes,script_cue,visual_cue,geographic,nostalgia,night_market,authenticity,platform_fast_food,uncertainty_note
+M_TEST_001,Shanghai,Dianping,宝岛台式卤肉饭,,https://example.com,2026-06-03,台湾小吃;快餐,正宗台湾师傅古法慢炖，主打古早味台式便当,台湾卤肉饭;盐酥鸡;珍珠奶茶,卤肉饭套餐,,,0,0,0,0,0,

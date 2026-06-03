@@ -1,2 +1,2 @@
 health_score,grade,usable_records,unique_sources,verification_quality,duplicate_rate,split_artifact_groups,low_confidence_probable_rate,ownership_completeness,ownership_matching_rate,negative_search_effort,1946_1987_coverage,1987_2015_coverage,2015_2025_coverage
-69.29,D,464,279,91.88,0.0,0,0.22,93.75,2.48,30.0,38.14,18.0,19.67
+71.17,D,504,297,90.81,0.0,0,0.2,93.75,2.26,30.0,39.14,20.13,25.33

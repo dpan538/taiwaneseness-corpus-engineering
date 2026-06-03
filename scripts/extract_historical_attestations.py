@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Extract historical attestation candidate windows from OCR JSONL."""
+"""Extract historical attestation candidates from OCR JSONL.
+
+Rows are merged per capture/page. The evidence unit is the source artifact,
+not each marker window.
+"""
 
 from __future__ import annotations
 
@@ -52,24 +56,52 @@ def windows(text: str, dish_re: re.Pattern, taiwan_re: re.Pattern, context_chars
     return out
 
 
+def unique_join(values: list[str], sep: str = ";") -> str:
+    seen: list[str] = []
+    for value in values:
+        for item in (value or "").replace("|", ";").split(";"):
+            item = item.strip()
+            if item and item not in seen:
+                seen.append(item)
+    return sep.join(seen)
+
+
 def main() -> None:
     args = parse_args()
     dish, taiwan = load_markers(args.lexicon)
     dish_re = compile_re(dish)
     taiwan_re = compile_re(taiwan)
-    rows = []
+    grouped: dict[tuple[str, str], list[dict]] = {}
+    metadata: dict[tuple[str, str], dict] = {}
     with Path(args.ocr_jsonl).open(encoding="utf-8") as f:
         for line in f:
             if not line.strip():
                 continue
             record = json.loads(line)
             text = record.get("text") or record.get("ocr_text") or ""
-            for row in windows(text, dish_re, taiwan_re, args.context_chars):
-                row["capture_id"] = record.get("capture_id", "")
-                row["source_id"] = record.get("source_id", "")
-                row["page_number"] = str(record.get("page_number", record.get("page_num", "")))
-                row["extraction_method"] = record.get("extraction_method", record.get("engine", ""))
-                rows.append(row)
+            page_number = str(record.get("page_number", record.get("page_num", "")))
+            key = (record.get("capture_id", "") or record.get("source_id", ""), page_number)
+            extracted = windows(text, dish_re, taiwan_re, args.context_chars)
+            if extracted:
+                grouped.setdefault(key, []).extend(extracted)
+                metadata[key] = record
+
+    rows = []
+    for key, group_rows in sorted(grouped.items()):
+        record = metadata[key]
+        rows.append(
+            {
+                "capture_id": record.get("capture_id", ""),
+                "source_id": record.get("source_id", ""),
+                "page_number": str(record.get("page_number", record.get("page_num", ""))),
+                "extraction_method": record.get("extraction_method", record.get("engine", "")),
+                "original_text": " || ".join(dict.fromkeys(r["original_text"] for r in group_rows if r["original_text"])),
+                "dish_marker": unique_join([r["dish_marker"] for r in group_rows]),
+                "taiwan_marker": unique_join([r["taiwan_marker"] for r in group_rows]),
+                "window_start": min(r["window_start"] for r in group_rows),
+                "window_end": max(r["window_end"] for r in group_rows),
+            }
+        )
 
     fields = ["capture_id", "source_id", "page_number", "extraction_method", "original_text", "dish_marker", "taiwan_marker", "window_start", "window_end"]
     out = Path(args.out)
@@ -83,4 +115,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

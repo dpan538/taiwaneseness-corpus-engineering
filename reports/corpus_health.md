@@ -1,35 +1,37 @@
 # Corpus Health Report
 
-Score: 71.64/100
+Score: 61.99/100
 
 Grade: D
 
 ## Summary
 
-- health_score: 71.64
+- health_score: 61.99
 - grade: D
-- usable_records: 496
-- unique_sources: 485
-- verification_quality: 93.41
+- usable_records: 335
+- unique_sources: 192
+- verification_quality: 94.37
 - duplicate_rate: 0.0
+- split_artifact_groups: 0
+- low_confidence_probable_rate: 0.3
 - ownership_completeness: 93.75
 - ownership_matching_rate: 3.61
 - negative_search_effort: 30.0
-- 1946_1987_coverage: 50.0
-- 1987_2015_coverage: 13.87
+- 1946_1987_coverage: 31.29
+- 1987_2015_coverage: 9.87
 - 2015_2025_coverage: 13.67
 
 ## Temporal Distribution
 
 | phase | time_bin | usable_records | is_empty |
 | --- | --- | --- | --- |
-| 1946_1987 | 1946-1959 | 75 | 0 |
-| 1946_1987 | 1960-1969 | 51 | 0 |
-| 1946_1987 | 1970-1979 | 72 | 0 |
-| 1946_1987 | 1980-1987 | 152 | 0 |
-| 1987_2015 | 1988-1995 | 11 | 0 |
-| 1987_2015 | 1996-2005 | 39 | 0 |
-| 1987_2015 | 2006-2014 | 54 | 0 |
+| 1946_1987 | 1946-1959 | 39 | 0 |
+| 1946_1987 | 1960-1969 | 36 | 0 |
+| 1946_1987 | 1970-1979 | 47 | 0 |
+| 1946_1987 | 1980-1987 | 97 | 0 |
+| 1987_2015 | 1988-1995 | 5 | 0 |
+| 1987_2015 | 1996-2005 | 24 | 0 |
+| 1987_2015 | 2006-2014 | 45 | 0 |
 | 2015_2025 | 2015-2017 | 11 | 0 |
 | 2015_2025 | 2018-2020 | 14 | 0 |
 | 2015_2025 | 2021-2025 | 16 | 0 |
@@ -45,7 +47,7 @@ Grade: D
 | Mainland China | 13 | 0 | 0 |
 | Malaysia | 1 | 0 | 0 |
 | North America | 22 | 0 | 0 |
-| North China | 16 | 0 | 0 |
+| North China | 13 | 0 | 0 |
 | Vietnam | 0 | 1 | 1 |
 | national | 2 | 0 | 0 |
 

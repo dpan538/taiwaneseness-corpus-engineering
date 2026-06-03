@@ -1,16 +1,16 @@
 period,corridor,n_attestations,lexical_binding_index,branding_binding_index,ownership_binding_index,historical_binding_index
 1940-1987_taiwan_side_formation,Taiwan-side,2,1.0000,0.0000,0.0000,0.5000
-1946-1987_taiwan_side_formation,Japan,54,0.9074,0.1852,0.0000,0.5000
+1946-1987_taiwan_side_formation,Japan,30,0.8333,0.2333,0.0000,0.4750
 1946-1987_taiwan_side_formation,Mainland China,13,0.0000,0.7692,0.0000,0.1923
 1946-1987_taiwan_side_formation,Malaysia,1,0.0000,1.0000,0.0000,0.2500
 1946-1987_taiwan_side_formation,North America,21,0.8095,0.4286,0.0000,0.5119
-1946-1987_taiwan_side_formation,Singapore,116,0.8879,0.9397,0.0000,0.6789
-1946-1987_taiwan_side_formation,Taiwan-side,137,1.0000,0.0073,0.0000,0.5018
+1946-1987_taiwan_side_formation,Singapore,58,0.7759,0.8793,0.0000,0.6078
+1946-1987_taiwan_side_formation,Taiwan-side,88,1.0000,0.0114,0.0000,0.5028
 1950-1978_taiwan_side_popular_food,Taiwan-side,4,0.0000,0.0000,0.0000,0.0000
 1979-1987_brand_formalization_and_reopening,Taiwan-side,3,0.0000,0.0000,0.0000,0.0000
-1987-2015_cross_strait_diffusion,North China,4,1.0000,0.0000,0.0000,0.5000
-1987-2015_cross_strait_diffusion,Singapore,16,1.0000,1.0000,0.0000,0.7500
-1987-2015_cross_strait_diffusion,Yangtze River Delta,20,1.0000,0.2000,0.0000,0.5500
+1987-2015_cross_strait_diffusion,North China,1,1.0000,0.0000,0.0000,0.5000
+1987-2015_cross_strait_diffusion,Singapore,4,1.0000,1.0000,0.0000,0.7500
+1987-2015_cross_strait_diffusion,Yangtze River Delta,5,1.0000,0.2000,0.0000,0.5500
 1988-2001_cross_strait_mobility,Hong Kong,1,1.0000,0.0000,0.0000,0.5000
 1988-2001_cross_strait_mobility,North China,3,0.6667,0.0000,0.0000,0.3333
 1988-2001_cross_strait_mobility,Taiwan-side,4,0.5000,0.2500,0.0000,0.3125

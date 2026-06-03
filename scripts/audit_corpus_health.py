@@ -58,6 +58,20 @@ def usable(row: dict) -> bool:
     return (row.get("verification_level") or "verified").strip().lower() in {"verified", "probable", ""}
 
 
+def artifact_key(row: dict) -> tuple[str, str, str]:
+    source = (
+        row.get("source_url")
+        or row.get("source_url_or_archive_ref")
+        or row.get("source_ref")
+        or row.get("source_name")
+        or row.get("source_id")
+        or ""
+    ).strip()
+    date_or_year = (row.get("date") or row.get("year") or "").strip()
+    brand = (row.get("brand_or_category") or row.get("brand") or "").strip()
+    return source, date_or_year, brand
+
+
 def year_of(row: dict) -> int | None:
     try:
         return int(float(row.get("year") or ""))
@@ -145,16 +159,17 @@ def main() -> None:
 
     phase_counts = Counter(phase_of(r) for r in usable_rows)
     phase_coverage = {phase: pct(phase_counts.get(phase, 0) / target * 100) for phase, target in TARGETS.items()}
-    unique_sources = {
-        r.get("source_id") or r.get("source_url_or_archive_ref") or r.get("source_url") or r.get("source_name")
-        for r in usable_rows
-    }
-    unique_sources.discard("")
-    unique_sources.discard(None)
+    artifact_keys = [artifact_key(r) for r in usable_rows if any(artifact_key(r))]
+    unique_sources = {key[0] for key in artifact_keys if key[0]}
     source_coverage = pct(len(unique_sources) / 300 * 100)
     verification_quality = pct(len(usable_rows) / len(attest) * 100) if attest else 0.0
-    dedupe_keys = [r.get("dedupe_key") for r in usable_rows if r.get("dedupe_key")]
-    duplicate_rate = pct((len(dedupe_keys) - len(set(dedupe_keys))) / len(dedupe_keys) * 100) if dedupe_keys else 0.0
+    duplicate_rate = pct((len(artifact_keys) - len(set(artifact_keys))) / len(artifact_keys) * 100) if artifact_keys else 0.0
+    split_artifact_groups = sum(1 for _, count in Counter(artifact_keys).items() if count > 1)
+    probable_rows = [r for r in usable_rows if (r.get("verification_level") or "verified").strip().lower() in {"verified", "probable", ""}]
+    low_confidence_probable = [
+        r for r in probable_rows if (r.get("confidence") or "").strip().lower() == "low"
+    ]
+    low_confidence_probable_rate = pct(len(low_confidence_probable) / len(probable_rows) * 100) if probable_rows else 0.0
     ownership_complete = pct(sum(1 for r in ownership if r.get("ownership_category") and r.get("ownership_category") != "unknown") / len(ownership) * 100) if ownership else 0.0
     ownership_brands = {
         (r.get("brand") or r.get("brand_or_category") or "").strip().lower()
@@ -262,6 +277,8 @@ def main() -> None:
         "unique_sources": len(unique_sources),
         "verification_quality": round(verification_quality, 2),
         "duplicate_rate": round(duplicate_rate, 2),
+        "split_artifact_groups": split_artifact_groups,
+        "low_confidence_probable_rate": round(low_confidence_probable_rate, 2),
         "ownership_completeness": round(ownership_complete, 2),
         "ownership_matching_rate": round(ownership_matching_rate, 2),
         "negative_search_effort": round(negative_search_effort, 2),

@@ -40,6 +40,15 @@ auditable.
 - **Action taken**: Added three southern market/old-shop records from Kaohsiung Travel, TVBS Food Player, and TaiwanFoodie; rebuilt the combined corpus; reran macro, formation-quota, health, writing-milestone, and binding-index audits.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: Taipei-focused public-web harvest moved the Taipei city quota close to threshold.
+- **Source / batch**: `HARVEST_013`.
+- **Decision**: Keep using public web sources for short targeted top-ups, but treat them as gap-filling evidence rather than the core historical proof layer. With Taipei now passing the city threshold, shift the next public-web sweep back to Tainan and Kaohsiung.
+- **Reason**: The batch raised 1946-1987 usable records from 116 to 128, Taipei records from 22 to 30, and Kaohsiung records from 20 to 24. However, the corpus remains far below the 350-record exploratory threshold and still depends heavily on retrospective public-web sources.
+- **Action taken**: Added 14 records in `data/harvested/taipei_southern_old_shop_batch_1946_1987_20260603_c.csv`, rebuilt the working corpus, and reran macro, formation-quota, health, writing-milestone, and binding-index audits. Two weaker rows remain candidate-level.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

@@ -103,6 +103,15 @@ auditable.
 - **Action taken**: Added seven non-duplicate records in `data/harvested/singapore_taiwanese_breakfast_topup_1946_1987_20260603_k.csv` and appended them to the working corpus for lightweight audit validation.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: Singapore can reach a stronger exploratory coverage band without changing the frozen experimental design if only distinct issue-level sources are added.
+- **Source / batch**: `HARVEST_022`.
+- **Decision**: Add five additional dated NewspaperSG attestations for Taiwan Porridge and early Stevens Corner Taiwanese Breakfast circulation.
+- **Reason**: These records are source-distinct from existing Singapore rows and preserve the source-key rule. The 1980 and 1981 records broaden the early Taiwan Porridge chronology, while the August/October 1985 records document the pre-buffet Stevens Corner Taiwanese Breakfast campaign.
+- **Action taken**: Added five non-duplicate records in `data/harvested/singapore_taiwan_porridge_breakfast_topup_1946_1987_20260603_l.csv` and appended them to the working corpus for lightweight audit validation.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

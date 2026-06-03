@@ -1,21 +1,21 @@
 # Corpus Health Report
 
-Score: 56.34/100
+Score: 56.74/100
 
 Grade: D
 
 ## Summary
 
-- health_score: 56.34
+- health_score: 56.74
 - grade: D
-- usable_records: 206
-- unique_sources: 195
-- verification_quality: 94.5
+- usable_records: 211
+- unique_sources: 200
+- verification_quality: 94.62
 - duplicate_rate: 0.0
 - ownership_completeness: 93.75
-- ownership_matching_rate: 6.99
+- ownership_matching_rate: 6.9
 - negative_search_effort: 33.33
-- 1946_1987_coverage: 26.71
+- 1946_1987_coverage: 27.43
 - 1987_2015_coverage: 1.6
 - 2015_2025_coverage: 2.0
 
@@ -26,7 +26,7 @@ Grade: D
 | 1946_1987 | 1946-1959 | 39 | 0 |
 | 1946_1987 | 1960-1969 | 39 | 0 |
 | 1946_1987 | 1970-1979 | 44 | 0 |
-| 1946_1987 | 1980-1987 | 65 | 0 |
+| 1946_1987 | 1980-1987 | 70 | 0 |
 | 1987_2015 | 1988-1995 | 1 | 0 |
 | 1987_2015 | 1996-2005 | 5 | 0 |
 | 1987_2015 | 2006-2014 | 6 | 0 |
@@ -50,9 +50,9 @@ Grade: D
 
 ## Ownership Matching
 
-- unique brands in usable attestations: 143
+- unique brands in usable attestations: 145
 - brands matched to ownership events: 10
-- ownership_matching_rate: 6.99%
+- ownership_matching_rate: 6.90%
 - interpretation: below 30% means ownership analysis is exploratory only; below 70% blocks strong ownership-shift claims.
 
 

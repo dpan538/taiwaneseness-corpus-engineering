@@ -112,6 +112,15 @@ auditable.
 - **Action taken**: Added five non-duplicate records in `data/harvested/singapore_taiwan_porridge_breakfast_topup_1946_1987_20260603_l.csv` and appended them to the working corpus for lightweight audit validation.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: Mainland China remains far below quota, but direct pre-1988 Taiwan-cuisine restaurant evidence is still scarce.
+- **Source / batch**: `HARVEST_023`.
+- **Decision**: Treat 1987 Taiwan-compatriot hotel, dining, booking, and food/lodging service infrastructure as usable mainland formation-layer evidence when the source explicitly names Taiwan compatriots and food/lodging facilities.
+- **Reason**: The frozen design includes the institutional and mobility layer that preceded later Taiwan-food commercial circulation. These rows should not be read as cuisine attestations; distinct `attestation_type` values preserve that boundary while improving mainland evidence density.
+- **Action taken**: Added ten non-duplicate records in `data/harvested/mainland_north_america_infrastructure_topup_1946_1987_20260603_m.csv` and appended them to the working corpus for lightweight audit validation.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

@@ -287,12 +287,12 @@ def main() -> None:
 
     Path(args.out_csv).parent.mkdir(parents=True, exist_ok=True)
     with Path(args.out_csv).open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(summary.keys()))
+        writer = csv.DictWriter(f, fieldnames=list(summary.keys()), lineterminator="\n")
         writer.writeheader()
         writer.writerow(summary)
     temporal_csv = Path(args.out_csv).with_name("corpus_temporal_distribution.csv")
     with temporal_csv.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["phase", "time_bin", "usable_records", "is_empty"])
+        writer = csv.DictWriter(f, fieldnames=["phase", "time_bin", "usable_records", "is_empty"], lineterminator="\n")
         writer.writeheader()
         writer.writerows(temporal_rows)
     negative_csv = Path(args.out_csv).with_name("negative_search_effort.csv")
@@ -305,6 +305,7 @@ def main() -> None:
                 "has_negative_search_log",
                 "claim_absence_allowed",
             ],
+            lineterminator="\n",
         )
         writer.writeheader()
         writer.writerows(negative_search_rows)

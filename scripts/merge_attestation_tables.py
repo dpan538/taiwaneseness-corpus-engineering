@@ -33,7 +33,7 @@ def main() -> None:
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer = csv.DictWriter(fh, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 

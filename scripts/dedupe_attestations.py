@@ -62,7 +62,7 @@ def main() -> None:
 
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     with Path(args.output).open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         writer.writerows(deduped)
 

@@ -103,7 +103,7 @@ def write_rows(path: str, rows: list[dict]) -> None:
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     fields = ["milestone", "status", "metric", "value", "threshold", "notes"]
     with Path(path).open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fields)
+        writer = csv.DictWriter(f, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -202,4 +202,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

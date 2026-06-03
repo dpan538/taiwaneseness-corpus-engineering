@@ -147,7 +147,7 @@ def main() -> None:
     if not rows:
         Path(args.output).parent.mkdir(parents=True, exist_ok=True)
         with Path(args.output).open("w", encoding="utf-8", newline="") as f:
-            csv.DictWriter(f, fieldnames=fields).writeheader()
+            csv.DictWriter(f, fieldnames=fields, lineterminator="\n").writeheader()
         print(f"merged_rows=0 output={args.output}")
         return
 
@@ -176,7 +176,7 @@ def main() -> None:
 
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     with Path(args.output).open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         writer.writerows(merged_rows)
 

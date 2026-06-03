@@ -94,6 +94,15 @@ auditable.
 - **Action taken**: Added 11 non-duplicate records in `data/harvested/japan_taiwan_symbolic_food_topup_1946_1987_20260603_j.csv` and appended them to the working corpus for lightweight audit validation.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: Singapore has enough early Taiwan-porridge seed records to be useful, but the 1985-1987 Taiwanese breakfast sub-format is still under-described.
+- **Source / batch**: `HARVEST_021`.
+- **Decision**: Add separate dated NewspaperSG issue-level attestations for Stevens Corner / Hotel Equatorial Taiwanese breakfast circulation when each issue has its own source URL and date.
+- **Reason**: The frozen design allows repeated ad circulation as source evidence when the source URL/date differs and the source key is not duplicated. These records show Taiwaneseness moving from generic Taiwan porridge toward named Taiwanese breakfast formats, especially shaobing, you tiao, soya-bean milk, and Taiwanese porridge.
+- **Action taken**: Added seven non-duplicate records in `data/harvested/singapore_taiwanese_breakfast_topup_1946_1987_20260603_k.csv` and appended them to the working corpus for lightweight audit validation.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

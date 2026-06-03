@@ -85,6 +85,15 @@ auditable.
 - **Action taken**: Added four records in `data/harvested/north_america_mainland_corridor_topup_1946_1987_20260603_i.csv`, appended them to the working corpus, and prepared the batch for lightweight audit validation.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: Japan and late Taiwan-side symbolic-food formation remain thin relative to the 1946-1987 exploratory threshold.
+- **Source / batch**: `HARVEST_020`.
+- **Decision**: Broaden the formation layer from lu rou fan-only evidence to clearly typed Taiwan-cuisine, Taiwan-street-food, Tai-cai restaurantization, and bubble-tea innovation records when the source explicitly anchors them before 1987.
+- **Reason**: The project studies Taiwaneseness as a consumed cultural sign, and the frozen design already treats restaurantization, overseas Taiwan-cuisine labels, and symbolic food/drink innovation as part of the historical formation layer. Keeping distinct `attestation_type` values prevents these records from being mistaken for lu rou fan attestations.
+- **Action taken**: Added 11 non-duplicate records in `data/harvested/japan_taiwan_symbolic_food_topup_1946_1987_20260603_j.csv` and appended them to the working corpus for lightweight audit validation.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

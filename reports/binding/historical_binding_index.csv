@@ -1,11 +1,11 @@
 period,corridor,n_attestations,lexical_binding_index,branding_binding_index,ownership_binding_index,historical_binding_index
 1940-1987_taiwan_side_formation,Taiwan-side,2,1.0000,0.0000,0.0000,0.5000
-1946-1987_taiwan_side_formation,Japan,16,0.6875,0.1875,0.0000,0.3906
+1946-1987_taiwan_side_formation,Japan,22,0.7727,0.2727,0.0000,0.4545
 1946-1987_taiwan_side_formation,Mainland China,5,0.0000,1.0000,0.0000,0.2500
 1946-1987_taiwan_side_formation,Malaysia,1,0.0000,1.0000,0.0000,0.2500
 1946-1987_taiwan_side_formation,North America,19,0.7895,0.4211,0.0000,0.5000
 1946-1987_taiwan_side_formation,Singapore,28,0.5357,0.8929,0.0000,0.4911
-1946-1987_taiwan_side_formation,Taiwan-side,92,1.0000,0.0000,0.0000,0.5000
+1946-1987_taiwan_side_formation,Taiwan-side,97,1.0000,0.0103,0.0000,0.5026
 1950-1978_taiwan_side_popular_food,Taiwan-side,4,0.0000,0.0000,0.0000,0.0000
 1979-1987_brand_formalization_and_reopening,Taiwan-side,3,0.0000,0.0000,0.0000,0.0000
 1988-2001_cross_strait_mobility,North China,1,0.0000,0.0000,0.0000,0.0000

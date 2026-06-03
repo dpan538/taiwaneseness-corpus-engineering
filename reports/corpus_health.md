@@ -1,21 +1,21 @@
 # Corpus Health Report
 
-Score: 54.87/100
+Score: 55.77/100
 
 Grade: D
 
 ## Summary
 
-- health_score: 54.87
+- health_score: 55.77
 - grade: D
-- usable_records: 188
-- unique_sources: 177
-- verification_quality: 94.0
+- usable_records: 199
+- unique_sources: 188
+- verification_quality: 94.31
 - duplicate_rate: 0.0
 - ownership_completeness: 93.75
-- ownership_matching_rate: 7.75
+- ownership_matching_rate: 7.19
 - negative_search_effort: 30.0
-- 1946_1987_coverage: 24.14
+- 1946_1987_coverage: 25.71
 - 1987_2015_coverage: 1.6
 - 2015_2025_coverage: 2.0
 
@@ -23,10 +23,10 @@ Grade: D
 
 | phase | time_bin | usable_records | is_empty |
 | --- | --- | --- | --- |
-| 1946_1987 | 1946-1959 | 38 | 0 |
-| 1946_1987 | 1960-1969 | 38 | 0 |
-| 1946_1987 | 1970-1979 | 43 | 0 |
-| 1946_1987 | 1980-1987 | 50 | 0 |
+| 1946_1987 | 1946-1959 | 39 | 0 |
+| 1946_1987 | 1960-1969 | 39 | 0 |
+| 1946_1987 | 1970-1979 | 44 | 0 |
+| 1946_1987 | 1980-1987 | 58 | 0 |
 | 1987_2015 | 1988-1995 | 1 | 0 |
 | 1987_2015 | 1996-2005 | 5 | 0 |
 | 1987_2015 | 2006-2014 | 6 | 0 |
@@ -38,7 +38,7 @@ Grade: D
 
 | corridor | usable_records | has_negative_search_log | claim_absence_allowed |
 | --- | --- | --- | --- |
-| Japan | 16 | 0 | 0 |
+| Japan | 22 | 0 | 0 |
 | Korea | 0 | 1 | 1 |
 | Latin America | 0 | 1 | 1 |
 | Mainland China | 5 | 0 | 0 |
@@ -51,9 +51,9 @@ Grade: D
 
 ## Ownership Matching
 
-- unique brands in usable attestations: 129
+- unique brands in usable attestations: 139
 - brands matched to ownership events: 10
-- ownership_matching_rate: 7.75%
+- ownership_matching_rate: 7.19%
 - interpretation: below 30% means ownership analysis is exploratory only; below 70% blocks strong ownership-shift claims.
 
 

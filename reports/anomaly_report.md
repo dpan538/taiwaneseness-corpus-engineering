@@ -1,10 +1,10 @@
 # Corpus Anomaly Report
 
-Generated: 2026-06-03T21:50:08
+Generated: 2026-06-03T21:53:13
 
 ## Summary
 
-- total_rows: 1155
+- total_rows: 1255
 - exact_duplicate_rows: 0
 - suspicious_split_groups: 0
 - year_outliers: 0
@@ -32,9 +32,9 @@ Generated: 2026-06-03T21:50:08
 
 | level | count | ratio |
 | --- | --- | --- |
-| probable | 1051 | 0.9100 |
-| candidate | 79 | 0.0684 |
-| (blank) | 25 | 0.0216 |
+| probable | 1151 | 0.9171 |
+| candidate | 79 | 0.0629 |
+| (blank) | 25 | 0.0199 |
 
 ## Detailed Files
 

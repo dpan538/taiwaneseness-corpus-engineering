@@ -1,25 +1,25 @@
 # Corpus Health Report
 
-Score: 73.11/100
+Score: 76.20/100
 
 Grade: D
 
 ## Summary
 
-- health_score: 73.11
+- health_score: 76.2
 - grade: D
-- usable_records: 577
-- unique_sources: 322
-- verification_quality: 88.09
+- usable_records: 676
+- unique_sources: 334
+- verification_quality: 89.54
 - duplicate_rate: 0.0
 - split_artifact_groups: 0
-- low_confidence_probable_rate: 0.17
+- low_confidence_probable_rate: 0.15
 - ownership_completeness: 93.75
-- ownership_matching_rate: 1.94
+- ownership_matching_rate: 1.63
 - negative_search_effort: 30.0
-- 1946_1987_coverage: 42.0
-- 1987_2015_coverage: 21.2
-- 2015_2025_coverage: 38.67
+- 1946_1987_coverage: 42.29
+- 1987_2015_coverage: 24.67
+- 2015_2025_coverage: 62.33
 
 ## Temporal Distribution
 
@@ -28,13 +28,13 @@ Grade: D
 | 1946_1987 | 1946-1959 | 57 | 0 |
 | 1946_1987 | 1960-1969 | 41 | 0 |
 | 1946_1987 | 1970-1979 | 61 | 0 |
-| 1946_1987 | 1980-1987 | 135 | 0 |
-| 1987_2015 | 1988-1995 | 37 | 0 |
+| 1946_1987 | 1980-1987 | 137 | 0 |
+| 1987_2015 | 1988-1995 | 39 | 0 |
 | 1987_2015 | 1996-2005 | 49 | 0 |
-| 1987_2015 | 2006-2014 | 73 | 0 |
-| 2015_2025 | 2015-2017 | 18 | 0 |
-| 2015_2025 | 2018-2020 | 37 | 0 |
-| 2015_2025 | 2021-2025 | 61 | 0 |
+| 1987_2015 | 2006-2014 | 97 | 0 |
+| 2015_2025 | 2015-2017 | 29 | 0 |
+| 2015_2025 | 2018-2020 | 62 | 0 |
+| 2015_2025 | 2021-2025 | 96 | 0 |
 
 ## Negative Search Effort
 
@@ -53,9 +53,9 @@ Grade: D
 
 ## Ownership Matching
 
-- unique brands in usable attestations: 516
+- unique brands in usable attestations: 615
 - brands matched to ownership events: 10
-- ownership_matching_rate: 1.94%
+- ownership_matching_rate: 1.63%
 - interpretation: below 30% means ownership analysis is exploratory only; below 70% blocks strong ownership-shift claims.
 
 
@@ -67,7 +67,7 @@ Grade: D
   "can_compare_regions": false,
   "can_compare_periods": false,
   "can_analyze_ownership_shift": false,
-  "can_analyze_platformization": false,
+  "can_analyze_platformization": true,
   "can_publish_quantitative_tables": false
 }
 ```

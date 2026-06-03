@@ -76,6 +76,15 @@ auditable.
 - **Action taken**: Added four non-duplicate records in `data/harvested/late_formation_corridor_topup_1946_1987_20260603_h.csv`, appended them to the working corpus, and upgraded the existing Yumama old noodle shop row from candidate to probable after recapturing the ROC-year source line.
 - **Responsible reviewer**: project researcher.
 
+## 2026-06-03
+
+- **Alert**: North America remains under quota and Mainland China remains especially thin, but some mainland food-route evidence is weakly sourced.
+- **Source / batch**: `HARVEST_019`.
+- **Decision**: Add strong North America corridor records as probable, but retain the Mr Lee Beijing 1987 returnee-chain row as candidate until a better biography or contemporaneous source confirms the Taiwan migration link.
+- **Reason**: The 99 Ranch official history and Los Angeles Times archive sources are direct enough for probable corridor evidence. The Mr Lee official page supports California origin and 1987 Beijing opening, but the Taiwan route is currently dependent on a weaker secondary capture.
+- **Action taken**: Added four records in `data/harvested/north_america_mainland_corridor_topup_1946_1987_20260603_i.csv`, appended them to the working corpus, and prepared the batch for lightweight audit validation.
+- **Responsible reviewer**: project researcher.
+
 ## Template
 
 ```markdown

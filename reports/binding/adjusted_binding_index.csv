@@ -1,0 +1,36 @@
+period,corridor,n_attestations,effective_n_weighted,mean_analysis_weight,weighted_lexical_binding,weighted_branding_binding,weighted_ownership_binding,weighted_historical_binding,unweighted_historical_binding_recomputed,weight_delta
+1940-1945_late_colonial_food_order,Taiwan-side,7,6.16,0.8800,1.0000,0.1429,0.0000,0.5357,0.5357,0.0000
+1940-1987_taiwan_side_formation,Taiwan-side,2,1.76,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+1946-1987_taiwan_side_formation,Japan,30,24.37,0.8124,0.8325,0.2528,0.0000,0.4794,0.4750,0.0044
+1946-1987_taiwan_side_formation,Mainland China,13,13.00,1.0000,0.0000,0.7692,0.0000,0.1923,0.1923,0.0000
+1946-1987_taiwan_side_formation,Malaysia,1,0.76,0.7600,0.0000,1.0000,0.0000,0.2500,0.2500,0.0000
+1946-1987_taiwan_side_formation,North America,21,18.21,0.8672,0.8067,0.4481,0.0000,0.5154,0.5119,0.0035
+1946-1987_taiwan_side_formation,Singapore,96,89.84,0.9358,0.8677,0.9291,0.0000,0.6661,0.6615,0.0047
+1946-1987_taiwan_side_formation,Taiwan-side,127,102.69,0.8086,1.0000,0.0171,0.0000,0.5043,0.5039,0.0003
+1950-1978_taiwan_side_popular_food,Taiwan-side,4,3.32,0.8310,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+1979-1987_brand_formalization_and_reopening,Taiwan-side,3,2.36,0.7882,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+1987-2015_cross_strait_diffusion,North China,1,0.88,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+1987-2015_cross_strait_diffusion,Singapore,283,257.66,0.9105,1.0000,0.7551,0.0000,0.6888,0.6890,-0.0003
+1987-2015_cross_strait_diffusion,Taiwan-side,140,115.67,0.8262,1.0000,0.8620,0.0000,0.7155,0.7179,-0.0024
+1987-2015_cross_strait_diffusion,Yangtze River Delta,41,36.08,0.8800,1.0000,0.3171,0.0000,0.5793,0.5793,0.0000
+1988-2001_cross_strait_mobility,Hong Kong,1,0.88,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+1988-2001_cross_strait_mobility,North China,3,2.64,0.8800,0.6667,0.0000,0.0000,0.3333,0.3333,0.0000
+1988-2001_cross_strait_mobility,Taiwan-side,4,3.38,0.8456,0.5203,0.2602,0.0000,0.3252,0.3125,0.0127
+1988-2001_cross_strait_mobility,Yangtze River Delta,4,3.52,0.8800,0.7500,0.0000,0.0000,0.3750,0.3750,0.0000
+2002-2013_taiwan_capital_gateway,Japan,3,2.64,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+2002-2013_taiwan_capital_gateway,North America,1,0.88,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+2002-2013_taiwan_capital_gateway,North China,7,6.10,0.8720,0.7208,0.0000,0.0000,0.3604,0.3571,0.0033
+2002-2013_taiwan_capital_gateway,Taiwan-side,24,21.07,0.8779,0.8770,0.0835,0.0000,0.4594,0.4583,0.0011
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,17,15.13,0.8900,0.8302,0.1824,0.0000,0.4607,0.4559,0.0048
+2014-2020_pre_wanghong_platformization,North China,2,1.76,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+2014-2020_pre_wanghong_platformization,Singapore,2,2.00,1.0000,1.0000,0.5000,0.0000,0.6250,0.6250,0.0000
+2014-2020_pre_wanghong_platformization,Taiwan-side,20,17.01,0.8504,0.8584,0.1552,0.0000,0.4680,0.4625,0.0055
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,12,10.68,0.8900,0.7528,0.5880,0.0000,0.5234,0.5208,0.0026
+2014-2020_pre_wanghong_platformization,national,1,0.88,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+2015-2025_internet_wanghong_capital,Singapore,5,5.00,1.0000,1.0000,1.0000,0.0000,0.7500,0.7500,0.0000
+2015-2025_internet_wanghong_capital,Taiwan-side,519,432.34,0.8330,1.0000,0.2956,0.0000,0.5739,0.5771,-0.0032
+2021-2025_internet_wanghong_capital,Central China,1,0.88,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+2021-2025_internet_wanghong_capital,Taiwan-side,7,6.16,0.8800,1.0000,0.1429,0.0000,0.5357,0.5357,0.0000
+2021-2025_internet_wanghong_capital,Yangtze River Delta,13,11.44,0.8800,1.0000,0.3846,0.0000,0.5962,0.5962,0.0000
+2021-2025_internet_wanghong_capital,national,1,0.88,0.8800,1.0000,0.0000,0.0000,0.5000,0.5000,0.0000
+out_of_scope,Taiwan-side,10,8.31,0.8313,1.0000,0.1059,0.0000,0.5265,0.5250,0.0015

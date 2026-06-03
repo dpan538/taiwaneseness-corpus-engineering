@@ -7,18 +7,18 @@
 | M1_method_write_ready | pass | negative_search_Korea | present | present |  |
 | M1_method_write_ready | pass | negative_search_Vietnam | present | present |  |
 | M1_method_write_ready | pass | negative_search_Latin America | present | present |  |
-| M2_1946_1987_exploratory_ready | fail | usable_1946_1987 | 248 | >=350 |  |
-| M2_1946_1987_exploratory_ready | pass | verified_probable_share | 91.21 | >=60% |  |
+| M2_1946_1987_exploratory_ready | fail | usable_1946_1987 | 267 | >=350 |  |
+| M2_1946_1987_exploratory_ready | pass | verified_probable_share | 91.88 | >=60% |  |
 | M2_1946_1987_exploratory_ready | pass | time_bins_ge_20 | 4 | >=3 |  |
 | M2_1946_1987_exploratory_ready | pass | Taipei_records | 34 | >=30 |  |
-| M2_1946_1987_exploratory_ready | fail | Tainan_records | 28 | >=30 |  |
-| M2_1946_1987_exploratory_ready | pass | Kaohsiung_records | 33 | >=30 |  |
-| M2b_1946_1987_stronger_claim_ready | fail | usable_1946_1987 | 248 | >=600 |  |
-| M2b_1946_1987_stronger_claim_ready | pass | verified_probable_share | 91.21 | >=80% |  |
-| M2b_1946_1987_stronger_claim_ready | pass | all_time_bins_ge_20 | {'1970-1979': 54, '1946-1959': 43, '1960-1969': 37, '1980-1987': 114} | all four >=20 |  |
-| M3_1987_2015_exploratory_ready | fail | usable_1987_2015 | 115 | >=400 |  |
-| M3_1987_2015_exploratory_ready | fail | mainland_corridors_ge_50 | {'Singapore': 45, 'North China': 11, 'Yangtze River Delta': 26, 'Taiwan-side': 28, 'Japan': 3, 'North America': 1, 'Hong Kong': 1} | >=3 corridors |  |
-| M3_1987_2015_exploratory_ready | fail | time_bins_ge_100 | {'1996-2005': 40, '1988-1995': 22, '2006-2014': 53} | >=2 bins |  |
+| M2_1946_1987_exploratory_ready | pass | Tainan_records | 36 | >=30 |  |
+| M2_1946_1987_exploratory_ready | pass | Kaohsiung_records | 36 | >=30 |  |
+| M2b_1946_1987_stronger_claim_ready | fail | usable_1946_1987 | 267 | >=600 |  |
+| M2b_1946_1987_stronger_claim_ready | pass | verified_probable_share | 91.88 | >=80% |  |
+| M2b_1946_1987_stronger_claim_ready | pass | all_time_bins_ge_20 | {'1970-1979': 57, '1946-1959': 47, '1960-1969': 38, '1980-1987': 125} | all four >=20 |  |
+| M3_1987_2015_exploratory_ready | fail | usable_1987_2015 | 135 | >=400 |  |
+| M3_1987_2015_exploratory_ready | fail | mainland_corridors_ge_50 | {'Singapore': 65, 'North China': 11, 'Yangtze River Delta': 26, 'Taiwan-side': 28, 'Japan': 3, 'North America': 1, 'Hong Kong': 1} | >=3 corridors |  |
+| M3_1987_2015_exploratory_ready | fail | time_bins_ge_100 | {'1996-2005': 44, '1988-1995': 31, '2006-2014': 60} | >=2 bins |  |
 | M4_platform_reference_ready | fail | target_merchants | 0 | >=60 |  |
 | M4_platform_reference_ready | fail | control_a_merchants | 0 | >=30 |  |
 | M4_platform_reference_ready | fail | control_b_merchants | 0 | >=30 |  |

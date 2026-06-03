@@ -21,7 +21,6 @@ PRIMARY_TYPE_HINTS = (
     "digitised_issue",
 )
 SECONDARY_TYPE_HINTS = (
-    "official_tourism",
     "official_event",
     "official_brand",
     "official_food",
@@ -32,7 +31,16 @@ SECONDARY_TYPE_HINTS = (
     "magazine",
     "news_article",
 )
-TERTIARY_TYPE_HINTS = ("blog", "review", "forum", "social", "retrospective")
+TERTIARY_TYPE_HINTS = (
+    "blog",
+    "review",
+    "forum",
+    "social",
+    "retrospective",
+    "official_tourism",
+    "municipal_tourism",
+    "tourism_profile",
+)
 
 PRIMARY_URL_HINTS = (
     "eresources.nlb.gov.sg/newspapers",
@@ -43,14 +51,16 @@ PRIMARY_URL_HINTS = (
     "gov.sg",
 )
 SECONDARY_URL_HINTS = (
-    "twtainan.net",
-    "khh.travel",
-    "taiwan.net.tw",
-    "tour",
-    "travel",
     "official",
 )
 TERTIARY_URL_HINTS = (
+    "twtainan.net",
+    "khh.travel",
+    "newtaipei.travel",
+    "travel.taipei",
+    "taiwan.net.tw",
+    "tour",
+    "travel",
     "blog",
     "ameblo",
     "tabelog",
@@ -105,7 +115,7 @@ def classify_authority(source_type: str, url: str) -> tuple[str, str]:
 
 
 def authority_weight(level: str) -> str:
-    return {"primary": "1.0000", "secondary": "0.7000", "tertiary": "0.4000"}.get(level, "0.5000")
+    return {"primary": "1.2000", "secondary": "0.7000", "tertiary": "0.2000"}.get(level, "0.3000")
 
 
 def main() -> None:

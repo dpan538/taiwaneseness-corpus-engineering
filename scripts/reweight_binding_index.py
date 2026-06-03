@@ -38,16 +38,16 @@ def float_value(value: str, default: float = 0.0) -> float:
 def authority_weight(row: dict) -> float:
     if row.get("authority_weight"):
         return float_value(row.get("authority_weight"), 0.5)
-    return {"primary": 1.0, "secondary": 0.7, "tertiary": 0.4}.get(
+    return {"primary": 1.2, "secondary": 0.7, "tertiary": 0.2}.get(
         (row.get("authority_level") or "secondary").strip().lower(),
-        0.5,
+        0.3,
     )
 
 
 def analysis_weight(row: dict) -> float:
     novelty = max(0.0, min(1.0, float_value(row.get("novelty_score"), 0.5)))
-    authority = max(0.0, min(1.0, authority_weight(row)))
-    return (0.6 * novelty) + (0.4 * authority)
+    authority = max(0.0, min(1.2, authority_weight(row)))
+    return (0.7 * novelty) + (0.3 * authority)
 
 
 def marker_present(row: dict, *fields: str) -> bool:

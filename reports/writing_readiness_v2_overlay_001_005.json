@@ -1,0 +1,31 @@
+{
+  "status": "keep_collecting",
+  "writing_ready": false,
+  "weighted_attestations": "working/combined_attestations_plus_manual_candidates_001_005_weighted_attestations_v2.csv",
+  "period": "1946-1987_taiwan_side_formation",
+  "corridor": "Taiwan-side",
+  "target_records": 350,
+  "total_records": 138,
+  "records_needed": 212,
+  "effective_n": 134.56,
+  "trend_slope": 0.0,
+  "trend_p_value": 1.0,
+  "ci_width": 0.0,
+  "ci_low": 0.0,
+  "ci_high": 0.0,
+  "stability": "high",
+  "source_distribution": {
+    "blog_review": 12,
+    "other": 71,
+    "tourism_retrospective": 54,
+    "newspaper_archive": 1
+  },
+  "authority_distribution": {
+    "tertiary": 92,
+    "primary": 4,
+    "secondary": 42
+  },
+  "tourism_ratio": 0.391304347826087,
+  "max_tourism_ratio": 0.4,
+  "recommendation": "KEEP COLLECTING: add at least 212 Taiwan-side records and prioritize primary newspaper/archive sources. Current tourism-retrospective ratio is 39.1%; trend p=1.0, stability=high."
+}

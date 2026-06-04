@@ -1,0 +1,21 @@
+{
+  "task_csv": "working/primary_round_009_search_plan_0001_2500.csv",
+  "validated_at": "2026-06-04T12:10:22",
+  "total_tasks": 2500,
+  "direct_url_count": 135,
+  "non_executable_count": 2365,
+  "direct_url_ratio": 0.054,
+  "sampled_count": 50,
+  "sampled_ok_count": 0,
+  "sampled_ok_rate": 0.0,
+  "sampled_blocked_count": 0,
+  "sampled_empty_count": 50,
+  "sampled_other_failure_count": 0,
+  "critical_failure": true,
+  "critical_reasons": [
+    "direct_url_ratio_below_threshold",
+    "sampled_ok_rate_below_threshold",
+    "no_working_urls_in_sample"
+  ],
+  "recommendation": "STOP - task batch is not executable/reachable enough to count as harvesting progress."
+}

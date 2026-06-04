@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-04T12:10:30",
+  "execution_log": "logs/round_009_validation_execution_log.csv",
+  "attestations": "",
+  "execution_log_rows": 50,
+  "executed_url_count": 50,
+  "successful_url_count": 0,
+  "failure_count": 50,
+  "failure_ratio": 1.0,
+  "result_count": 0,
+  "accepted_record_count": 0,
+  "target_accepted": 100,
+  "accepted_remaining": 100,
+  "accepted_per_successful_url": 0.0,
+  "top_failure_reasons": {
+    "URLError(gaierror(8, 'nodename nor servname provided, or not known'))": 50
+  },
+  "next_recommendation": "STOP - failure ratio is too high; inspect execution failures before continuing."
+}

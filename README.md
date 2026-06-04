@@ -37,9 +37,20 @@ docs/        Research design, corpus protocol, stop rules, and publication strat
 outputs/     Earlier pilot outputs and exploratory summaries
 reports/     Current health audits, claim flags, alerts, and writing milestones
 scripts/     Harvesting, extraction, scoring, audit, and monitoring scripts
+analysis/    Public figure exports and code-first analysis runners
 ```
 
 Raw captures, OCR output, platform cookies, and private Word drafts are intentionally excluded from version control.
+
+## Public Release Scope
+
+The public repository is intended to foreground the reproducible method rather than the author's private analysis workspace. The preferred public surface is:
+
+- Python scripts for harvesting, extraction, scoring, auditing, and figure generation;
+- configuration files, lexicons, and research protocol documents;
+- selected PNG figures that are safe to show in a thesis or project summary.
+
+Local notebooks, intermediate analysis tables, temporary CSV exports, and private drafting artifacts are not part of the public release surface. They may exist in the working directory during analysis, but should not be committed unless explicitly prepared for publication.
 
 ## Key Tables
 

@@ -1,0 +1,5 @@
+# Keep GitHub language statistics focused on the public code surface.
+*.ipynb linguist-vendored
+analysis/**/figures/*.png linguist-generated
+analysis/**/*.csv linguist-generated
+analysis/**/*.json linguist-generated

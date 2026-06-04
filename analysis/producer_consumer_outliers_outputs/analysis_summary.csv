@@ -1,3 +1,0 @@
-analysis,status,data_label,plotly_html,merchant_file,review_file,merchant_rows,review_rows,matched_review_rows,marked_merchants,consumer_reproduced_reviews,total_records,threshold,outlier_records,outlier_share,reason_counts
-producer_consumer,ok,seed_platform_sample,,/Users/jarlgiovanni/Desktop/Taiwaneseness as a consumed cultural sign/data/seed_merchants.csv,/Users/jarlgiovanni/Desktop/Taiwaneseness as a consumed cultural sign/data/seed_reviews.csv,9.0,5.0,5.0,9.0,4.0,,,,,
-outlier_mining,ok,,,,,,,,,,1965.0,0.5,172.0,0.08753180661577609,"[{'outlier_reason': 'positive_but_low_weight', 'count': 109}, {'outlier_reason': 'taiwan_context_without_target_dish', 'count': 38}, {'outlier_reason': 'no_binding_control', 'count': 25}]"

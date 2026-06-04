@@ -4,6 +4,8 @@ This repository hosts the data pipeline, corpus schemas, and audit tools for the
 
 **"Taiwaneseness as a Consumed Cultural Sign: A Geo-Historical Semantic Analysis of Lu Rou Fan across Publication Systems, Ownership Regimes, and Platform Logics (1940-2025)."**
 
+Author: **Dai Pan**.
+
 ## Research Object
 
 This project does not ask whether any bowl of lu rou fan is "truly" Taiwanese. It studies when, where, and by whom **Taiwan markers** become attached to **dish markers** such as lu rou fan, rouzao rice, and braised pork rice.
@@ -183,4 +185,4 @@ Final licensing should be confirmed before public release of any full corpus sna
 
 If you use this corpus design or pipeline, please cite:
 
-> Pan, D. *Corpus Engineering for the Geo-Historical Semantics of Taiwaneseness*. GitHub repository, 2026. https://github.com/dpan538/taiwaneseness-corpus-engineering
+> Dai Pan. *Corpus Engineering for the Geo-Historical Semantics of Taiwaneseness*. GitHub repository, 2026. https://github.com/dpan538/taiwaneseness-corpus-engineering

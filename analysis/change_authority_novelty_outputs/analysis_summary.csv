@@ -1,0 +1,4 @@
+analysis,change_point_rows,violin_rows,surface_rows,surface_r_squared,corridor_surfaces
+change_points,75.0,,,,
+violin,,1926.0,,,
+authority_novelty,,,1965.0,0.5061807327402814,5.0

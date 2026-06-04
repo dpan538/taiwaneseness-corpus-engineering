@@ -1,0 +1,69 @@
+corridor,period_bin,binding_bucket,rows,share
+Japan,1946-1987,zero,1,0.038461538461538464
+Japan,1946-1987,weak,0,0.0
+Japan,1946-1987,middle,10,0.38461538461538464
+Japan,1946-1987,strong,15,0.5769230769230769
+Japan,2002-2015,zero,0,0.0
+Japan,2002-2015,weak,0,0.0
+Japan,2002-2015,middle,0,0.0
+Japan,2002-2015,strong,3,1.0
+Korea,2016-2025,zero,0,0.0
+Korea,2016-2025,weak,0,0.0
+Korea,2016-2025,middle,0,0.0
+Korea,2016-2025,strong,4,1.0
+Mainland China,1946-1987,zero,13,0.9285714285714286
+Mainland China,1946-1987,weak,0,0.0
+Mainland China,1946-1987,middle,0,0.0
+Mainland China,1946-1987,strong,1,0.07142857142857142
+North America,1946-1987,zero,4,0.17391304347826086
+North America,1946-1987,weak,0,0.0
+North America,1946-1987,middle,3,0.13043478260869565
+North America,1946-1987,strong,16,0.6956521739130435
+North America,2002-2015,zero,0,0.0
+North America,2002-2015,weak,0,0.0
+North America,2002-2015,middle,0,0.0
+North America,2002-2015,strong,1,1.0
+Singapore,1946-1987,zero,1,0.007633587786259542
+Singapore,1946-1987,weak,0,0.0
+Singapore,1946-1987,middle,35,0.26717557251908397
+Singapore,1946-1987,strong,95,0.7251908396946565
+Singapore,1988-2001,zero,0,0.0
+Singapore,1988-2001,weak,0,0.0
+Singapore,1988-2001,middle,2,0.021505376344086023
+Singapore,1988-2001,strong,91,0.978494623655914
+Singapore,2002-2015,zero,0,0.0
+Singapore,2002-2015,weak,35,0.1794871794871795
+Singapore,2002-2015,middle,12,0.06153846153846154
+Singapore,2002-2015,strong,148,0.7589743589743589
+Singapore,2016-2025,zero,0,0.0
+Singapore,2016-2025,weak,0,0.0
+Singapore,2016-2025,middle,0,0.0
+Singapore,2016-2025,strong,7,1.0
+Taiwan-side,1946-1987,zero,7,0.0330188679245283
+Taiwan-side,1946-1987,weak,2,0.009433962264150943
+Taiwan-side,1946-1987,middle,148,0.6981132075471698
+Taiwan-side,1946-1987,strong,55,0.25943396226415094
+Taiwan-side,1988-2001,zero,2,0.1
+Taiwan-side,1988-2001,weak,0,0.0
+Taiwan-side,1988-2001,middle,1,0.05
+Taiwan-side,1988-2001,strong,17,0.85
+Taiwan-side,2002-2015,zero,3,0.01910828025477707
+Taiwan-side,2002-2015,weak,20,0.12738853503184713
+Taiwan-side,2002-2015,middle,109,0.6942675159235668
+Taiwan-side,2002-2015,strong,25,0.1592356687898089
+Taiwan-side,2016-2025,zero,3,0.0031479538300104933
+Taiwan-side,2016-2025,weak,52,0.05456453305351522
+Taiwan-side,2016-2025,middle,891,0.9349422875131165
+Taiwan-side,2016-2025,strong,7,0.007345225603357817
+Yangtze River Delta,1988-2001,zero,1,0.03571428571428571
+Yangtze River Delta,1988-2001,weak,0,0.0
+Yangtze River Delta,1988-2001,middle,0,0.0
+Yangtze River Delta,1988-2001,strong,27,0.9642857142857143
+Yangtze River Delta,2002-2015,zero,4,0.11428571428571428
+Yangtze River Delta,2002-2015,weak,0,0.0
+Yangtze River Delta,2002-2015,middle,0,0.0
+Yangtze River Delta,2002-2015,strong,31,0.8857142857142857
+Yangtze River Delta,2016-2025,zero,2,0.08333333333333333
+Yangtze River Delta,2016-2025,weak,0,0.0
+Yangtze River Delta,2016-2025,middle,0,0.0
+Yangtze River Delta,2016-2025,strong,22,0.9166666666666666

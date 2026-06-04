@@ -1,0 +1,28 @@
+{
+  "round": "012",
+  "accepted_records": 4,
+  "accepted_primary_taiwanside_records": 0,
+  "accepted_regional_primary_records": 4,
+  "combined_overlay_rows": 1965,
+  "batch_quality_grade": "A",
+  "overlay_quality_grade": "B",
+  "overlay_critical_alerts": {},
+  "overlay_warnings": {
+    "low_conf_probable_rows": 1
+  },
+  "writing_status": "keep_collecting",
+  "records_needed": 206,
+  "taiwan_primary_records_current": 4,
+  "tourism_ratio": 0.3819444444444444,
+  "credibility_percent": 64.87,
+  "transparency_score": 72.83,
+  "target_controls_selected": 100,
+  "target_trend_additional_needed": 220,
+  "target_trend_writing_ready": false,
+  "sources": [
+    "https://eresources.nlb.gov.sg/newspapers/digitised/issue/straitstimes19880129-1",
+    "https://eresources.nlb.gov.sg/newspapers/digitised/issue/newpaper19891004-1",
+    "https://eresources.nlb.gov.sg/newspapers/digitised/issue/newpaper19900912-1",
+    "https://eresources.nlb.gov.sg/newspapers/digitised/issue/straitstimes19920209-1"
+  ]
+}

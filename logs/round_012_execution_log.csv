@@ -1,0 +1,5 @@
+task_id,executed_at,execution_status,result_count,accepted_attestation_id,failure_reason,target,status,content_length
+srch_51e225ade7c1,2026-06-04T05:34:35+00:00,success,1,ROUND012_NEWSG_19880129_MAYGARDEN_CONTROL,,https://eresources.nlb.gov.sg/newspapers/digitised/issue/straitstimes19880129-1,,
+srch_69362ed10b1d,2026-06-04T05:34:35+00:00,success,1,ROUND012_NEWSG_19891004_TAIPEI_UMEKO_CONTROL,,https://eresources.nlb.gov.sg/newspapers/digitised/issue/newpaper19891004-1,,
+srch_55bd835b4804,2026-06-04T05:34:35+00:00,success,1,ROUND012_NEWSG_19900912_MAYGARDEN_CONTROL,,https://eresources.nlb.gov.sg/newspapers/digitised/issue/newpaper19900912-1,,
+srch_23f16c3348a1,2026-06-04T05:34:35+00:00,success,1,ROUND012_NEWSG_19920209_MAYGARDEN_CONTROL,,https://eresources.nlb.gov.sg/newspapers/digitised/issue/straitstimes19920209-1,,

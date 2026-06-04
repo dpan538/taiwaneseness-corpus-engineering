@@ -1,0 +1,40 @@
+{
+  "source_file": "working/current_assessment_weighted_001_012.csv",
+  "period": "1946-1987_taiwan_side_formation",
+  "target_regex": "滷肉飯|卤肉饭|魯肉飯|鲁肉饭|肉燥飯|肉燥饭|肉臊飯|肉臊饭|lu\\s*rou\\s*fan|rou\\s*zao|rouzao|luroufan|ルーローハン|魯肉",
+  "positive_rows_available": 113,
+  "control_candidates_available": 293,
+  "controls_selected": 100,
+  "analysis_rows": 213,
+  "controls_by_corridor": {
+    "Taiwan-side": 30,
+    "Japan": 22,
+    "North America": 16,
+    "Singapore": 16,
+    "unknown": 12,
+    "Mainland China": 4
+  },
+  "controls_by_authority": {
+    "secondary": 37,
+    "primary": 35,
+    "tertiary": 28
+  },
+  "controls_by_source_type": {
+    "newspaper_archive": 29,
+    "official_tourism_profile": 8,
+    "food_media_retrospective": 6,
+    "brand_history": 5,
+    "food_history_feature": 4,
+    "newspaper_feature": 4,
+    "food_blog": 4,
+    "official_event_page": 4,
+    "local_government_magazine": 2,
+    "food_culture_article": 2,
+    "municipal_profile": 2,
+    "official_product_history": 2
+  },
+  "positives_by_corridor": {
+    "Taiwan-side": 110,
+    "Japan": 3
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "transparency_score": 72.83,
+  "total_records": 1965,
+  "components": {
+    "source_traceable_ratio": 1.0,
+    "row_process_log_ref_ratio": 0.002,
+    "harvest_log_available": 1.0,
+    "raw_capture_exists_ratio": 0.002,
+    "verification_recorded_ratio": 0.9873,
+    "notes_recorded_ratio": 1.0,
+    "expected_negative_search_coverage_ratio": 1.0,
+    "attested_pair_negative_search_coverage_ratio": 0.0,
+    "documentation_score": 1.0
+  },
+  "counts": {
+    "traceable_records": 1965,
+    "row_process_log_ref_records": 4,
+    "source_id_present_records": 1940,
+    "raw_capture_matched_records": 4,
+    "verification_recorded_records": 1940,
+    "notes_recorded_records": 1965,
+    "attested_corridor_phase_pairs": 24,
+    "negative_search_pairs": 3,
+    "harvest_log_rows": 40,
+    "raw_capture_manifest_ids": 4,
+    "phase_counts": {
+      "1946_1987": 414,
+      "2015_2025": 991,
+      "1940-1987_taiwan_side_formation": 1,
+      "1987_2015": 539,
+      "1940-1945_late_colonial_food_order": 9,
+      "out_of_scope": 10,
+      "1940-1945_preformation": 1
+    }
+  },
+  "method_notes": [
+    "Row process-log references use search_id, harvest_id, capture_id, or negative_search_id if present; source_id is reported separately and is not counted as process-log evidence.",
+    "Raw capture matching is strict and requires capture_id in both the attestation row and manifest JSONL.",
+    "Expected negative-search coverage uses Korea, Vietnam, and Latin America for 1946_1987 by default.",
+    "Attested-pair negative coverage is reported for transparency but not included in the weighted score."
+  ]
+}

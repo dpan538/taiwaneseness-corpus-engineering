@@ -1,0 +1,690 @@
+{
+  "period": "1946-1987_taiwan_side_formation",
+  "attestations_file": "working/current_assessment_weighted_001_011.csv",
+  "total_records": 350,
+  "year_interval": 5,
+  "binding_signal": {
+    "mode": "explicit_weighted_binding",
+    "has_weighted_historical_binding": true,
+    "has_historical_binding_raw": true,
+    "has_analysis_weight": true,
+    "strict_writing_ready_allowed": true
+  },
+  "sample_sufficiency": {
+    "effective_n": 338.44,
+    "mean_binding": 0.885851,
+    "ci_half_width": 0.03241,
+    "estimated_additional_records_needed": 0,
+    "interpretation": "sufficient"
+  },
+  "trend_taiwan_domestic": {
+    "num_records": 144,
+    "years_covered": [
+      1945,
+      1950,
+      1955,
+      1960,
+      1965,
+      1970,
+      1975,
+      1980,
+      1985
+    ],
+    "time_series": [
+      {
+        "year_bin": 1945,
+        "binding_index": 1.0,
+        "weight_sum": 8.38,
+        "n": 10
+      },
+      {
+        "year_bin": 1950,
+        "binding_index": 1.0,
+        "weight_sum": 21.0724,
+        "n": 26
+      },
+      {
+        "year_bin": 1955,
+        "binding_index": 1.0,
+        "weight_sum": 13.2498,
+        "n": 18
+      },
+      {
+        "year_bin": 1960,
+        "binding_index": 1.0,
+        "weight_sum": 14.6576,
+        "n": 18
+      },
+      {
+        "year_bin": 1965,
+        "binding_index": 1.0,
+        "weight_sum": 15.2643,
+        "n": 19
+      },
+      {
+        "year_bin": 1970,
+        "binding_index": 1.0,
+        "weight_sum": 14.7473,
+        "n": 18
+      },
+      {
+        "year_bin": 1975,
+        "binding_index": 1.0,
+        "weight_sum": 11.5764,
+        "n": 14
+      },
+      {
+        "year_bin": 1980,
+        "binding_index": 1.0,
+        "weight_sum": 11.6478,
+        "n": 14
+      },
+      {
+        "year_bin": 1985,
+        "binding_index": 1.0,
+        "weight_sum": 5.2931,
+        "n": 7
+      }
+    ],
+    "slope": 0.0,
+    "p_value": 1.0,
+    "ci_low": 0.0,
+    "ci_high": 0.0,
+    "stability": "high",
+    "trend_emerged": false
+  },
+  "trend_dish_semantic": {
+    "lu_rou_fan": {
+      "num_records": 36,
+      "years_covered": [
+        1945,
+        1950,
+        1955,
+        1960,
+        1965,
+        1970,
+        1975,
+        1980,
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1945,
+          "binding_index": 1.0,
+          "weight_sum": 1.6966,
+          "n": 2
+        },
+        {
+          "year_bin": 1950,
+          "binding_index": 1.0,
+          "weight_sum": 0.7657,
+          "n": 1
+        },
+        {
+          "year_bin": 1955,
+          "binding_index": 1.0,
+          "weight_sum": 4.709,
+          "n": 7
+        },
+        {
+          "year_bin": 1960,
+          "binding_index": 1.0,
+          "weight_sum": 2.5757,
+          "n": 3
+        },
+        {
+          "year_bin": 1965,
+          "binding_index": 1.0,
+          "weight_sum": 2.73,
+          "n": 3
+        },
+        {
+          "year_bin": 1970,
+          "binding_index": 1.0,
+          "weight_sum": 5.9041,
+          "n": 7
+        },
+        {
+          "year_bin": 1975,
+          "binding_index": 1.0,
+          "weight_sum": 5.6264,
+          "n": 7
+        },
+        {
+          "year_bin": 1980,
+          "binding_index": 1.0,
+          "weight_sum": 1.3759,
+          "n": 2
+        },
+        {
+          "year_bin": 1985,
+          "binding_index": 1.0,
+          "weight_sum": 3.1959,
+          "n": 4
+        }
+      ],
+      "slope": 0.0,
+      "p_value": 1.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "stability": "high",
+      "trend_emerged": false
+    },
+    "other": {
+      "num_records": 171,
+      "years_covered": [
+        1945,
+        1950,
+        1955,
+        1960,
+        1965,
+        1970,
+        1975,
+        1980,
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1945,
+          "binding_index": 0.887394,
+          "weight_sum": 7.7305,
+          "n": 9
+        },
+        {
+          "year_bin": 1950,
+          "binding_index": 1.0,
+          "weight_sum": 14.9968,
+          "n": 18
+        },
+        {
+          "year_bin": 1955,
+          "binding_index": 1.0,
+          "weight_sum": 4.61,
+          "n": 6
+        },
+        {
+          "year_bin": 1960,
+          "binding_index": 1.0,
+          "weight_sum": 9.3444,
+          "n": 12
+        },
+        {
+          "year_bin": 1965,
+          "binding_index": 1.0,
+          "weight_sum": 6.0775,
+          "n": 7
+        },
+        {
+          "year_bin": 1970,
+          "binding_index": 0.712266,
+          "weight_sum": 13.6932,
+          "n": 16
+        },
+        {
+          "year_bin": 1975,
+          "binding_index": 0.877215,
+          "weight_sum": 14.8226,
+          "n": 17
+        },
+        {
+          "year_bin": 1980,
+          "binding_index": 0.909191,
+          "weight_sum": 34.6783,
+          "n": 40
+        },
+        {
+          "year_bin": 1985,
+          "binding_index": 0.656573,
+          "weight_sum": 42.7747,
+          "n": 46
+        }
+      ],
+      "slope": -0.006961162127586415,
+      "p_value": 0.034,
+      "ci_low": -0.012572864427413321,
+      "ci_high": 0.00047324168952177144,
+      "stability": "high",
+      "trend_emerged": true
+    },
+    "porridge": {
+      "num_records": 95,
+      "years_covered": [
+        1945,
+        1970,
+        1975,
+        1980,
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1945,
+          "binding_index": 1.0,
+          "weight_sum": 0.76,
+          "n": 1
+        },
+        {
+          "year_bin": 1970,
+          "binding_index": 0.619947,
+          "weight_sum": 4.6133,
+          "n": 5
+        },
+        {
+          "year_bin": 1975,
+          "binding_index": 0.637157,
+          "weight_sum": 12.8929,
+          "n": 14
+        },
+        {
+          "year_bin": 1980,
+          "binding_index": 0.952992,
+          "weight_sum": 40.3424,
+          "n": 43
+        },
+        {
+          "year_bin": 1985,
+          "binding_index": 0.934367,
+          "weight_sum": 30.966,
+          "n": 32
+        }
+      ],
+      "slope": 0.013197786316429096,
+      "p_value": 0.124,
+      "ci_low": -0.011449065236881115,
+      "ci_high": 0.04918617633160672,
+      "stability": "high",
+      "trend_emerged": false
+    },
+    "rouzao_fan": {
+      "num_records": 48,
+      "years_covered": [
+        1945,
+        1950,
+        1955,
+        1960,
+        1965,
+        1970,
+        1975,
+        1980,
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1945,
+          "binding_index": 1.0,
+          "weight_sum": 0.76,
+          "n": 1
+        },
+        {
+          "year_bin": 1950,
+          "binding_index": 1.0,
+          "weight_sum": 7.4267,
+          "n": 10
+        },
+        {
+          "year_bin": 1955,
+          "binding_index": 1.0,
+          "weight_sum": 5.2508,
+          "n": 7
+        },
+        {
+          "year_bin": 1960,
+          "binding_index": 1.0,
+          "weight_sum": 5.1619,
+          "n": 6
+        },
+        {
+          "year_bin": 1965,
+          "binding_index": 1.0,
+          "weight_sum": 9.9335,
+          "n": 13
+        },
+        {
+          "year_bin": 1970,
+          "binding_index": 1.0,
+          "weight_sum": 2.73,
+          "n": 3
+        },
+        {
+          "year_bin": 1975,
+          "binding_index": 1.0,
+          "weight_sum": 1.82,
+          "n": 2
+        },
+        {
+          "year_bin": 1980,
+          "binding_index": 1.0,
+          "weight_sum": 4.4,
+          "n": 5
+        },
+        {
+          "year_bin": 1985,
+          "binding_index": 1.0,
+          "weight_sum": 0.76,
+          "n": 1
+        }
+      ],
+      "slope": 0.0,
+      "p_value": 1.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "stability": "high",
+      "trend_emerged": false
+    }
+  },
+  "trend_geo_network": {
+    "Taiwan-side": {
+      "num_records": 144,
+      "years_covered": [
+        1945,
+        1950,
+        1955,
+        1960,
+        1965,
+        1970,
+        1975,
+        1980,
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1945,
+          "binding_index": 1.0,
+          "weight_sum": 8.38,
+          "n": 10
+        },
+        {
+          "year_bin": 1950,
+          "binding_index": 1.0,
+          "weight_sum": 21.0724,
+          "n": 26
+        },
+        {
+          "year_bin": 1955,
+          "binding_index": 1.0,
+          "weight_sum": 13.2498,
+          "n": 18
+        },
+        {
+          "year_bin": 1960,
+          "binding_index": 1.0,
+          "weight_sum": 14.6576,
+          "n": 18
+        },
+        {
+          "year_bin": 1965,
+          "binding_index": 1.0,
+          "weight_sum": 15.2643,
+          "n": 19
+        },
+        {
+          "year_bin": 1970,
+          "binding_index": 1.0,
+          "weight_sum": 14.7473,
+          "n": 18
+        },
+        {
+          "year_bin": 1975,
+          "binding_index": 1.0,
+          "weight_sum": 11.5764,
+          "n": 14
+        },
+        {
+          "year_bin": 1980,
+          "binding_index": 1.0,
+          "weight_sum": 11.6478,
+          "n": 14
+        },
+        {
+          "year_bin": 1985,
+          "binding_index": 1.0,
+          "weight_sum": 5.2931,
+          "n": 7
+        }
+      ],
+      "slope": 0.0,
+      "p_value": 1.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "stability": "high",
+      "trend_emerged": false
+    },
+    "Singapore": {
+      "num_records": 129,
+      "years_covered": [
+        1970,
+        1975,
+        1980,
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1970,
+          "binding_index": 0.729592,
+          "weight_sum": 3.92,
+          "n": 4
+        },
+        {
+          "year_bin": 1975,
+          "binding_index": 1.0,
+          "weight_sum": 11.6274,
+          "n": 13
+        },
+        {
+          "year_bin": 1980,
+          "binding_index": 1.0,
+          "weight_sum": 58.4498,
+          "n": 63
+        },
+        {
+          "year_bin": 1985,
+          "binding_index": 1.0,
+          "weight_sum": 45.5793,
+          "n": 49
+        }
+      ],
+      "slope": 0.007000027717400071,
+      "p_value": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.05408163265306123,
+      "stability": "high",
+      "trend_emerged": true
+    },
+    "Japan": {
+      "num_records": 26,
+      "years_covered": [
+        1945,
+        1950,
+        1955,
+        1960,
+        1965,
+        1970,
+        1975,
+        1980,
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1945,
+          "binding_index": 0.660901,
+          "weight_sum": 2.5671,
+          "n": 3
+        },
+        {
+          "year_bin": 1950,
+          "binding_index": 1.0,
+          "weight_sum": 2.1168,
+          "n": 3
+        },
+        {
+          "year_bin": 1955,
+          "binding_index": 1.0,
+          "weight_sum": 1.32,
+          "n": 2
+        },
+        {
+          "year_bin": 1960,
+          "binding_index": 1.0,
+          "weight_sum": 2.4244,
+          "n": 3
+        },
+        {
+          "year_bin": 1965,
+          "binding_index": 1.0,
+          "weight_sum": 2.5667,
+          "n": 3
+        },
+        {
+          "year_bin": 1970,
+          "binding_index": 1.0,
+          "weight_sum": 0.91,
+          "n": 1
+        },
+        {
+          "year_bin": 1975,
+          "binding_index": 1.0,
+          "weight_sum": 1.82,
+          "n": 2
+        },
+        {
+          "year_bin": 1980,
+          "binding_index": 1.0,
+          "weight_sum": 4.2091,
+          "n": 5
+        },
+        {
+          "year_bin": 1985,
+          "binding_index": 1.0,
+          "weight_sum": 3.64,
+          "n": 4
+        }
+      ],
+      "slope": 0.004643231300324717,
+      "p_value": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.011760849742722991,
+      "stability": "high",
+      "trend_emerged": true
+    },
+    "Korea": {
+      "num_records": 0,
+      "years_covered": [],
+      "time_series": [],
+      "slope": null,
+      "p_value": null,
+      "ci_low": null,
+      "ci_high": null,
+      "stability": "insufficient",
+      "trend_emerged": false
+    },
+    "North America": {
+      "num_records": 20,
+      "years_covered": [
+        1965,
+        1970,
+        1975,
+        1980,
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1965,
+          "binding_index": 1.0,
+          "weight_sum": 0.91,
+          "n": 1
+        },
+        {
+          "year_bin": 1970,
+          "binding_index": 0.75,
+          "weight_sum": 3.64,
+          "n": 4
+        },
+        {
+          "year_bin": 1975,
+          "binding_index": 0.666667,
+          "weight_sum": 5.46,
+          "n": 6
+        },
+        {
+          "year_bin": 1980,
+          "binding_index": 1.0,
+          "weight_sum": 1.4444,
+          "n": 2
+        },
+        {
+          "year_bin": 1985,
+          "binding_index": 1.0,
+          "weight_sum": 6.4618,
+          "n": 7
+        }
+      ],
+      "slope": 0.015044307634720719,
+      "p_value": 0.158,
+      "ci_low": -0.028947368421052624,
+      "ci_high": 0.03462458586050423,
+      "stability": "high",
+      "trend_emerged": false
+    },
+    "Mainland China": {
+      "num_records": 13,
+      "years_covered": [
+        1985
+      ],
+      "time_series": [
+        {
+          "year_bin": 1985,
+          "binding_index": 0.0,
+          "weight_sum": 13.78,
+          "n": 13
+        }
+      ],
+      "slope": null,
+      "p_value": null,
+      "ci_low": null,
+      "ci_high": null,
+      "stability": "insufficient",
+      "trend_emerged": false
+    },
+    "Yangtze River Delta": {
+      "num_records": 0,
+      "years_covered": [],
+      "time_series": [],
+      "slope": null,
+      "p_value": null,
+      "ci_low": null,
+      "ci_high": null,
+      "stability": "insufficient",
+      "trend_emerged": false
+    }
+  },
+  "unique_early_corridors": [
+    {
+      "corridor": "Singapore",
+      "first_year_bin": 1970,
+      "first_binding": 0.729592,
+      "n": 4
+    },
+    {
+      "corridor": "Japan",
+      "first_year_bin": 1945,
+      "first_binding": 0.660901,
+      "n": 3
+    },
+    {
+      "corridor": "North America",
+      "first_year_bin": 1965,
+      "first_binding": 1.0,
+      "n": 1
+    }
+  ],
+  "readiness": {
+    "taiwan_ready": false,
+    "dish_ready": false,
+    "geo_ready": true,
+    "sample_ok": true,
+    "preliminary_writing_ready": false,
+    "writing_ready": false
+  },
+  "preliminary_writing_ready": false,
+  "writing_ready": false,
+  "recommendation": "Not yet ready for strong historical-trend writing. Taiwan domestic trend is not both significant and highly stable; lu rou fan / rouzao fan semantic trend is not yet clear enough. Continue targeted collection, prioritizing under-covered Taiwan-side years and dish-specific primary records."
+}

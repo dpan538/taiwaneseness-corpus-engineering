@@ -1,0 +1,10 @@
+{
+  "has_critical": false,
+  "has_warnings": true,
+  "has_alerts": true,
+  "critical": {},
+  "warnings": {
+    "low_conf_probable_rows": 1,
+    "fuzzy_duplicate_pairs": 373
+  }
+}

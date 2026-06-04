@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-04T13:30:06",
+  "execution_log": "logs/primary_round_010_execution_log.csv",
+  "attestations": "working/manual_harvest_primary_round_010_batches_001_004.csv",
+  "execution_log_rows": 102,
+  "executed_url_count": 102,
+  "successful_url_count": 100,
+  "failure_count": 2,
+  "failure_ratio": 0.0196,
+  "result_count": 100,
+  "accepted_record_count": 100,
+  "target_accepted": 500,
+  "accepted_remaining": 400,
+  "accepted_per_successful_url": 1.0,
+  "top_failure_reasons": {
+    "javascript_robot_verification_page_not_accepted": 2
+  },
+  "next_recommendation": "CONTINUE SMALL BATCHES - accepted records are below target; count only logged executions."
+}

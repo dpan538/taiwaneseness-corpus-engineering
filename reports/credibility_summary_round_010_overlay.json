@@ -1,0 +1,28 @@
+{
+  "overall_credibility_index": 0.5891,
+  "overall_credibility_percent": 58.91,
+  "credibility_interpretation": "moderate",
+  "median_credibility": 0.585,
+  "stdev_credibility": 0.0499,
+  "high_credibility_ratio": 0.0251,
+  "low_credibility_ratio": 0.0495,
+  "total_records": 1595,
+  "component_means": {
+    "verification": 0.6858,
+    "authority": 0.7,
+    "novelty": 0.5068,
+    "confidence": 0.6959,
+    "corroboration": 0.0307
+  },
+  "credibility_bins": {
+    "good": 46,
+    "low": 79,
+    "moderate": 1446,
+    "strong": 24
+  },
+  "method_notes": [
+    "Corroboration uses distinct source references for the same brand/year/period, not raw row counts.",
+    "String confidence values are mapped as high=0.9, medium=0.65, low=0.3.",
+    "Missing novelty defaults to 0.5; missing authority defaults to secondary-like 0.5-0.7 depending on fields."
+  ]
+}

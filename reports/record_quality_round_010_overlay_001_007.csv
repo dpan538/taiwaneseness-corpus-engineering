@@ -1,0 +1,52 @@
+metric,value
+input_csv,working/combined_attestations_plus_manual_candidates_001_007.csv
+total_records,1620
+missing_fields.year,0
+missing_fields.original_text,25
+missing_fields.dish_marker,63
+missing_fields.taiwan_marker,25
+missing_fields.source_url,0
+unique_source_refs,494
+duplicate_url_groups,140
+duplicate_url_ratio,0.2834
+duplicate_artifact_groups,0
+suspicious_split_groups,1
+invalid_year_count,7
+invalid_year_ratio,0.0043
+source_type_distribution.official_event_page,349
+source_type_distribution.newspaper_issue,227
+source_type_distribution.newspaper_archive,210
+source_type_distribution.official_tourism_profile,163
+source_type_distribution.official_brand_timeline,41
+source_type_distribution.official_tourism_file,40
+source_type_distribution.municipal_profile,38
+source_type_distribution.official_food_competition_file,32
+source_type_distribution.official_itinerary_file,32
+source_type_distribution.official_tourism_news,27
+source_type_distribution.food_media_retrospective,25
+source_type_distribution.official_tourism_route,25
+corridor_distribution.Taiwan-side,1001
+corridor_distribution.Singapore,422
+corridor_distribution.Yangtze River Delta,87
+corridor_distribution.Japan,29
+corridor_distribution.North America,24
+corridor_distribution.unknown,19
+corridor_distribution.Mainland China,14
+corridor_distribution.North China,13
+corridor_distribution.national,5
+corridor_distribution.Korea,4
+corridor_distribution.Hong Kong,1
+corridor_distribution.Central China,1
+top_source_names.Tainan Tourism,411
+top_source_names.Kaohsiung Travel,134
+top_source_names.NewspaperSG Straits Times,128
+top_source_names.Tainan Tourism file,124
+top_source_names.NewspaperSG / NLB,47
+top_source_names.鬍鬚張,41
+top_source_names.NewspaperSG New Paper,39
+top_source_names.NewspaperSG Today,38
+top_source_names.NewspaperSG The Straits Times,34
+top_source_names.NewspaperSG / The Straits Times,31
+top_source_names.The Straits Times / NewspaperSG,28
+top_source_names.Tainan Travel,26
+quality_grade,B

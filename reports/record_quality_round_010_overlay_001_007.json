@@ -1,0 +1,61 @@
+{
+  "input_csv": "working/combined_attestations_plus_manual_candidates_001_007.csv",
+  "total_records": 1620,
+  "missing_fields": {
+    "year": 0,
+    "original_text": 25,
+    "dish_marker": 63,
+    "taiwan_marker": 25,
+    "source_url": 0
+  },
+  "unique_source_refs": 494,
+  "duplicate_url_groups": 140,
+  "duplicate_url_ratio": 0.2834,
+  "duplicate_artifact_groups": 0,
+  "suspicious_split_groups": 1,
+  "invalid_year_count": 7,
+  "invalid_year_ratio": 0.0043,
+  "source_type_distribution": {
+    "official_event_page": 349,
+    "newspaper_issue": 227,
+    "newspaper_archive": 210,
+    "official_tourism_profile": 163,
+    "official_brand_timeline": 41,
+    "official_tourism_file": 40,
+    "municipal_profile": 38,
+    "official_food_competition_file": 32,
+    "official_itinerary_file": 32,
+    "official_tourism_news": 27,
+    "food_media_retrospective": 25,
+    "official_tourism_route": 25
+  },
+  "corridor_distribution": {
+    "Taiwan-side": 1001,
+    "Singapore": 422,
+    "Yangtze River Delta": 87,
+    "Japan": 29,
+    "North America": 24,
+    "unknown": 19,
+    "Mainland China": 14,
+    "North China": 13,
+    "national": 5,
+    "Korea": 4,
+    "Hong Kong": 1,
+    "Central China": 1
+  },
+  "top_source_names": {
+    "Tainan Tourism": 411,
+    "Kaohsiung Travel": 134,
+    "NewspaperSG Straits Times": 128,
+    "Tainan Tourism file": 124,
+    "NewspaperSG / NLB": 47,
+    "鬍鬚張": 41,
+    "NewspaperSG New Paper": 39,
+    "NewspaperSG Today": 38,
+    "NewspaperSG The Straits Times": 34,
+    "NewspaperSG / The Straits Times": 31,
+    "The Straits Times / NewspaperSG": 28,
+    "Tainan Travel": 26
+  },
+  "quality_grade": "B"
+}

@@ -1,0 +1,37 @@
+{
+  "input_csv": "working/manual_harvest_primary_round_010_batches_001_002.csv",
+  "total_records": 34,
+  "missing_fields": {
+    "year": 0,
+    "original_text": 0,
+    "dish_marker": 0,
+    "taiwan_marker": 0,
+    "source_url": 0
+  },
+  "unique_source_refs": 34,
+  "duplicate_url_groups": 0,
+  "duplicate_url_ratio": 0.0,
+  "duplicate_artifact_groups": 0,
+  "suspicious_split_groups": 0,
+  "invalid_year_count": 0,
+  "invalid_year_ratio": 0.0,
+  "source_type_distribution": {
+    "official_tourism_news": 27,
+    "michelin_restaurant_page": 3,
+    "official_tourism_profile": 2,
+    "michelin_editorial": 1,
+    "michelin_press_release_pdf": 1
+  },
+  "corridor_distribution": {
+    "Taiwan-side": 30,
+    "Korea": 4
+  },
+  "top_source_names": {
+    "Tainan Travel": 24,
+    "Kaohsiung Travel": 5,
+    "MICHELIN Guide Korea": 3,
+    "MICHELIN Guide Taiwan": 1,
+    "MICHELIN Guide Seoul and Busan": 1
+  },
+  "quality_grade": "A"
+}

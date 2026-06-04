@@ -1,0 +1,20 @@
+{
+  "task_csv": "working/round_011_newspapersg_direct_url_smoke_tasks.csv",
+  "validated_at": "2026-06-04T14:19:23",
+  "total_tasks": 5,
+  "direct_url_count": 5,
+  "non_executable_count": 0,
+  "direct_url_ratio": 1.0,
+  "sampled_count": 5,
+  "sampled_ok_count": 0,
+  "sampled_ok_rate": 0.0,
+  "sampled_blocked_count": 0,
+  "sampled_empty_count": 5,
+  "sampled_other_failure_count": 0,
+  "critical_failure": true,
+  "critical_reasons": [
+    "sampled_ok_rate_below_threshold",
+    "no_working_urls_in_sample"
+  ],
+  "recommendation": "STOP - task batch is not executable/reachable enough to count as harvesting progress."
+}

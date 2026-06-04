@@ -1,0 +1,5 @@
+source_name,search_keyword,page,search_url,execution_status,failure_reason
+國家文化記憶庫,滷肉飯,1,https://memory.culture.tw/Home/List?Keyword=%E6%BB%B7%E8%82%89%E9%A3%AF&page=1,failure,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://memory.culture.tw/Home/List?Keyword=%E6%BB%B7%E8%82%89%E9%A3%AF&page=1
+國家文化記憶庫,肉燥飯,1,https://memory.culture.tw/Home/List?Keyword=%E8%82%89%E7%87%A5%E9%A3%AF&page=1,failure,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://memory.culture.tw/Home/List?Keyword=%E8%82%89%E7%87%A5%E9%A3%AF&page=1
+國家文化記憶庫,老照片 滷肉飯,1,https://memory.culture.tw/Home/List?Keyword=%E8%80%81%E7%85%A7%E7%89%87%20%E6%BB%B7%E8%82%89%E9%A3%AF&page=1,failure,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://memory.culture.tw/Home/List?Keyword=%E8%80%81%E7%85%A7%E7%89%87%20%E6%BB%B7%E8%82%89%E9%A3%AF&page=1
+國家文化記憶庫,菜單 肉燥飯,1,https://memory.culture.tw/Home/List?Keyword=%E8%8F%9C%E5%96%AE%20%E8%82%89%E7%87%A5%E9%A3%AF&page=1,failure,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://memory.culture.tw/Home/List?Keyword=%E8%8F%9C%E5%96%AE%20%E8%82%89%E7%87%A5%E9%A3%AF&page=1

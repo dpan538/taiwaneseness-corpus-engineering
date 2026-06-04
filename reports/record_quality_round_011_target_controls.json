@@ -1,0 +1,55 @@
+{
+  "input_csv": "working/historical_target_controls_round_011_candidates.csv",
+  "total_records": 100,
+  "missing_fields": {
+    "year": 0,
+    "original_text": 0,
+    "dish_marker": 21,
+    "taiwan_marker": 0,
+    "source_url": 0
+  },
+  "unique_source_refs": 79,
+  "duplicate_url_groups": 12,
+  "duplicate_url_ratio": 0.1519,
+  "duplicate_artifact_groups": 0,
+  "suspicious_split_groups": 0,
+  "invalid_year_count": 0,
+  "invalid_year_ratio": 0.0,
+  "source_type_distribution": {
+    "newspaper_archive": 29,
+    "official_tourism_profile": 8,
+    "food_media_retrospective": 6,
+    "brand_history": 5,
+    "food_history_feature": 4,
+    "newspaper_feature": 4,
+    "food_blog": 4,
+    "official_event_page": 4,
+    "local_government_magazine": 2,
+    "food_culture_article": 2,
+    "municipal_profile": 2,
+    "official_product_history": 2
+  },
+  "corridor_distribution": {
+    "Taiwan-side": 30,
+    "Japan": 22,
+    "North America": 16,
+    "Singapore": 16,
+    "unknown": 12,
+    "Mainland China": 4
+  },
+  "top_source_names": {
+    "NewspaperSG / The Straits Times": 9,
+    "Kaohsiung Travel": 7,
+    "Yaba Misen official history": 5,
+    "Los Angeles Times": 5,
+    "People's Daily / cn.govopendata": 4,
+    "The Straits Times / NewspaperSG": 4,
+    "NewspaperSG / NLB": 3,
+    "New Nation / NewspaperSG": 3,
+    "台南旅遊網": 3,
+    "港区芝地区地域情報誌": 2,
+    "東京ディープチャイナ研究会": 2,
+    "TASTE": 2
+  },
+  "quality_grade": "B"
+}

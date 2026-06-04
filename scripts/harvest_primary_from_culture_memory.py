@@ -111,6 +111,7 @@ async def harvest_source(adapter: SourceAdapter, keywords: list[str], max_pages:
         ) from exc
 
     all_results = []
+    failures = []
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=True)
         context = await browser.new_context(
@@ -137,8 +138,18 @@ async def harvest_source(adapter: SourceAdapter, keywords: list[str], max_pages:
                     print(f"  -> {len(results)} candidates")
                 except Exception as exc:
                     print(f"  !! failed {url}: {exc}")
+                    failures.append(
+                        {
+                            "source_name": adapter.source_name,
+                            "search_keyword": keyword,
+                            "page": str(page_number),
+                            "search_url": url,
+                            "execution_status": "failure",
+                            "failure_reason": str(exc).splitlines()[0][:500],
+                        }
+                    )
         await browser.close()
-    return all_results
+    return all_results, failures
 
 
 def write_candidates(rows: list[dict], out_csv: str) -> None:
@@ -161,12 +172,29 @@ def write_candidates(rows: list[dict], out_csv: str) -> None:
         writer.writerows(rows)
 
 
+def write_failures(rows: list[dict], out_csv: str) -> None:
+    fields = [
+        "source_name",
+        "search_keyword",
+        "page",
+        "search_url",
+        "execution_status",
+        "failure_reason",
+    ]
+    Path(out_csv).parent.mkdir(parents=True, exist_ok=True)
+    with Path(out_csv).open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Harvest primary-source candidates from culture memory platforms.")
     parser.add_argument("--keywords", nargs="+", default=["老照片 滷肉飯", "滷肉飯 菜單", "肉燥飯 1970", "台灣小吃 老照片"])
     parser.add_argument("--max-pages", type=int, default=3)
     parser.add_argument("--delay", type=float, nargs=2, default=[1.0, 3.0])
     parser.add_argument("--out-csv", default="working/primary_candidates.csv")
+    parser.add_argument("--failure-log", default="", help="Optional CSV of failed search attempts.")
     parser.add_argument("--check-deps", action="store_true", help="Only check whether Playwright is importable.")
     args = parser.parse_args()
 
@@ -181,12 +209,18 @@ def main():
 
     adapters = [TaiwanCultureMemoryAdapter()]
     all_candidates = []
+    all_failures = []
     for adapter in adapters:
-        rows = asyncio.run(harvest_source(adapter, args.keywords, args.max_pages, tuple(args.delay)))
+        rows, failures = asyncio.run(harvest_source(adapter, args.keywords, args.max_pages, tuple(args.delay)))
         all_candidates.extend(rows)
+        all_failures.extend(failures)
 
     write_candidates(all_candidates, args.out_csv)
+    if args.failure_log:
+        write_failures(all_failures, args.failure_log)
     print(f"Saved {len(all_candidates)} candidate records to {args.out_csv}")
+    if args.failure_log:
+        print(f"Saved {len(all_failures)} failed attempts to {args.failure_log}")
 
 
 if __name__ == "__main__":

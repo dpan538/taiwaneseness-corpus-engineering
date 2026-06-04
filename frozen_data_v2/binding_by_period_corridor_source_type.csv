@@ -1,0 +1,184 @@
+period,corridor,source_type,weighted_binding_index,weight_sum,row_count
+1940-1945_late_colonial_food_order,Taiwan-side,cultural_file,1.000000,0.9100,1
+1940-1945_late_colonial_food_order,Taiwan-side,municipal_profile,1.000000,2.2800,3
+1940-1945_late_colonial_food_order,Taiwan-side,official_event_page,1.000000,2.2800,3
+1940-1945_late_colonial_food_order,Taiwan-side,official_tourism_profile,1.000000,1.5200,2
+1940-1945_preformation,Taiwan-side,official_tourism_news,1.000000,0.5267,1
+1940-1987_taiwan_side_formation,Taiwan-side,cultural_city_file,1.000000,0.9100,1
+1940-1987_taiwan_side_formation,Taiwan-side,municipal_tourism,1.000000,0.7600,1
+1946-1987_taiwan_side_formation,Japan,brand_history,1.000000,4.4722,5
+1946-1987_taiwan_side_formation,Japan,food_history_feature,1.000000,4.3750,5
+1946-1987_taiwan_side_formation,Japan,food_media_list,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Japan,food_media_retrospective,1.000000,3.9868,6
+1946-1987_taiwan_side_formation,Japan,food_media_secondary,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Japan,local_government_magazine,1.000000,1.4788,2
+1946-1987_taiwan_side_formation,Japan,local_tv_feature,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Japan,media_obituary,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Japan,newspaper_or_municipal_publication,1.000000,1.0086,1
+1946-1987_taiwan_side_formation,Japan,official_merchant_directory,0.000000,0.8705,1
+1946-1987_taiwan_side_formation,Japan,official_restaurant_profile,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Japan,official_tourism_listing,1.000000,0.6822,1
+1946-1987_taiwan_side_formation,Mainland China,brand_official_with_secondary,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Mainland China,newspaper_archive,0.000000,13.7800,13
+1946-1987_taiwan_side_formation,North America,academic_publication_record,0.000000,0.9100,1
+1946-1987_taiwan_side_formation,North America,book_secondary,0.000000,1.8200,2
+1946-1987_taiwan_side_formation,North America,encyclopedic_secondary,0.500000,1.8200,2
+1946-1987_taiwan_side_formation,North America,food_culture_article,1.000000,2.7300,3
+1946-1987_taiwan_side_formation,North America,food_guide,1.000000,1.8200,2
+1946-1987_taiwan_side_formation,North America,food_history_article,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,North America,food_history_magazine,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,North America,food_media_retro,1.000000,0.7222,1
+1946-1987_taiwan_side_formation,North America,local_news_food_guide,1.000000,1.8200,2
+1946-1987_taiwan_side_formation,North America,newspaper_feature,1.000000,4.0609,4
+1946-1987_taiwan_side_formation,North America,newspaper_review,1.000000,0.5809,1
+1946-1987_taiwan_side_formation,North America,obituary_food_history,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,North America,official_company_profile,1.000000,0.7222,1
+1946-1987_taiwan_side_formation,North America,travel_history_article,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Singapore,newspaper_archive,0.990169,107.8227,117
+1946-1987_taiwan_side_formation,Singapore,newspaper_archive_retrospective,1.000000,1.3291,2
+1946-1987_taiwan_side_formation,Singapore,newspaper_issue,1.000000,11.6600,11
+1946-1987_taiwan_side_formation,Singapore,public_web_profile,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,brand_food_map,1.000000,0.7132,1
+1946-1987_taiwan_side_formation,Taiwan-side,business_interview,1.000000,0.7420,1
+1946-1987_taiwan_side_formation,Taiwan-side,cultural_file,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,food_article,1.000000,1.8200,2
+1946-1987_taiwan_side_formation,Taiwan-side,food_blog,1.000000,6.0800,8
+1946-1987_taiwan_side_formation,Taiwan-side,food_blog_retrospective,1.000000,9.3760,14
+1946-1987_taiwan_side_formation,Taiwan-side,food_history_article,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,food_logistics_media,1.000000,0.7132,1
+1946-1987_taiwan_side_formation,Taiwan-side,food_media_listing,1.000000,2.9662,4
+1946-1987_taiwan_side_formation,Taiwan-side,food_media_profile,1.000000,3.4900,4
+1946-1987_taiwan_side_formation,Taiwan-side,food_media_retrospective,1.000000,11.9871,18
+1946-1987_taiwan_side_formation,Taiwan-side,food_travel_blog,1.000000,0.5541,1
+1946-1987_taiwan_side_formation,Taiwan-side,food_tv_listing,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,local_food_media,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,local_media_profile,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,local_news,1.000000,1.0600,1
+1946-1987_taiwan_side_formation,Taiwan-side,local_news_food_business,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,local_storymap,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,media_food_card,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,media_food_feature,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,michelin_editorial,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,municipal_accessibility_listing,1.000000,0.9057,1
+1946-1987_taiwan_side_formation,Taiwan-side,municipal_media,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,municipal_profile,1.000000,15.2000,20
+1946-1987_taiwan_side_formation,Taiwan-side,municipal_tourism,1.000000,7.8101,11
+1946-1987_taiwan_side_formation,Taiwan-side,news_report,1.000000,0.8135,1
+1946-1987_taiwan_side_formation,Taiwan-side,newspaper_food_feature,1.000000,1.0600,1
+1946-1987_taiwan_side_formation,Taiwan-side,official_activity_page,1.000000,1.5200,2
+1946-1987_taiwan_side_formation,Taiwan-side,official_brand_history,1.000000,2.7300,3
+1946-1987_taiwan_side_formation,Taiwan-side,official_brand_homepage,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,official_brand_page,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,official_brand_profile,1.000000,1.8200,2
+1946-1987_taiwan_side_formation,Taiwan-side,official_event_page,1.000000,9.8800,13
+1946-1987_taiwan_side_formation,Taiwan-side,official_open_data,1.000000,1.5200,2
+1946-1987_taiwan_side_formation,Taiwan-side,official_open_data_michelin,1.000000,1.5200,2
+1946-1987_taiwan_side_formation,Taiwan-side,official_product_history,1.000000,1.3372,2
+1946-1987_taiwan_side_formation,Taiwan-side,official_tourism_pdf,1.000000,0.7600,1
+1946-1987_taiwan_side_formation,Taiwan-side,official_tourism_profile,1.000000,24.3574,33
+1946-1987_taiwan_side_formation,Taiwan-side,oral_history_project,1.000000,1.9450,2
+1946-1987_taiwan_side_formation,Taiwan-side,platform_food_listing,1.000000,1.8200,2
+1946-1987_taiwan_side_formation,Taiwan-side,platform_food_review,1.000000,0.6743,1
+1946-1987_taiwan_side_formation,Taiwan-side,platform_menu,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,public_food_profile,1.000000,3.4900,4
+1946-1987_taiwan_side_formation,Taiwan-side,public_web_profile,1.000000,10.0100,11
+1946-1987_taiwan_side_formation,Taiwan-side,reference_profile,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,restaurant_history_secondary,1.000000,1.1432,2
+1946-1987_taiwan_side_formation,Taiwan-side,restaurant_platform,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,travel_feature,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,travel_food_article,1.000000,2.7300,3
+1946-1987_taiwan_side_formation,Taiwan-side,travel_food_media,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Taiwan-side,travel_food_retrospective,1.000000,0.7600,1
+1946-1987_taiwan_side_formation,unknown,academic_secondary,0.000000,1.8200,2
+1946-1987_taiwan_side_formation,unknown,food_history_secondary,0.000000,0.9100,1
+1946-1987_taiwan_side_formation,unknown,food_media_retrospective,0.000000,0.5691,1
+1946-1987_taiwan_side_formation,unknown,local_business_media,0.000000,0.9100,1
+1946-1987_taiwan_side_formation,unknown,newspaper_archive,0.000000,11.4202,12
+1946-1987_taiwan_side_formation,unknown,official_company_profile,0.000000,0.9100,1
+1946-1987_taiwan_side_formation,unknown,restaurant_listing_retrospective,0.000000,0.7600,1
+1950-1978_taiwan_side_popular_food,Taiwan-side,food_history_article,0.000000,0.9100,1
+1950-1978_taiwan_side_popular_food,Taiwan-side,newspaper_retrospective,0.000000,0.7600,1
+1950-1978_taiwan_side_popular_food,Taiwan-side,official_brand_timeline,0.000000,1.7315,2
+1979-1987_brand_formalization_and_reopening,Taiwan-side,newspaper_retrospective,0.000000,0.7600,1
+1979-1987_brand_formalization_and_reopening,Taiwan-side,official_brand_timeline,0.000000,1.6386,2
+1987-2015_cross_strait_diffusion,North China,industry_association_report,1.000000,0.9100,1
+1987-2015_cross_strait_diffusion,Singapore,corporate_prospectus,1.000000,10.9200,12
+1987-2015_cross_strait_diffusion,Singapore,newspaper_archive,1.000000,72.8364,69
+1987-2015_cross_strait_diffusion,Singapore,newspaper_issue,1.000000,190.4811,206
+1987-2015_cross_strait_diffusion,Taiwan-side,newspaper_article,1.000000,12.7200,12
+1987-2015_cross_strait_diffusion,Taiwan-side,newspaper_issue,1.000000,4.2400,4
+1987-2015_cross_strait_diffusion,Taiwan-side,official_activity_page,1.000000,0.7600,1
+1987-2015_cross_strait_diffusion,Taiwan-side,official_event_page,1.000000,15.9752,24
+1987-2015_cross_strait_diffusion,Taiwan-side,official_food_competition_file,1.000000,22.0552,32
+1987-2015_cross_strait_diffusion,Taiwan-side,official_itinerary_file,1.000000,23.3180,32
+1987-2015_cross_strait_diffusion,Taiwan-side,official_tourism_file,1.000000,25.0470,40
+1987-2015_cross_strait_diffusion,Yangtze River Delta,company_intelligence,1.000000,2.7300,3
+1987-2015_cross_strait_diffusion,Yangtze River Delta,corporate_history,1.000000,10.9200,12
+1987-2015_cross_strait_diffusion,Yangtze River Delta,corporate_prospectus,1.000000,10.9200,12
+1987-2015_cross_strait_diffusion,Yangtze River Delta,news_report,1.000000,1.8200,2
+1987-2015_cross_strait_diffusion,Yangtze River Delta,street_food_history_article,1.000000,10.9200,12
+1988-2001_cross_strait_mobility,Hong Kong,Taiwan_business_directory,1.000000,0.9100,1
+1988-2001_cross_strait_mobility,North China,industry_report,1.000000,1.8200,2
+1988-2001_cross_strait_mobility,North China,news_report,0.000000,0.9100,1
+1988-2001_cross_strait_mobility,Taiwan-side,Taiwan_business_directory,1.000000,0.9100,1
+1988-2001_cross_strait_mobility,Taiwan-side,official_brand_timeline,0.354141,2.5696,3
+1988-2001_cross_strait_mobility,Yangtze River Delta,business_case,1.000000,0.9100,1
+1988-2001_cross_strait_mobility,Yangtze River Delta,media_report,0.666667,2.7300,3
+2002-2013_taiwan_capital_gateway,Japan,business_case,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,Japan,official_brand_timeline,1.000000,1.8200,2
+2002-2013_taiwan_capital_gateway,North America,official_company_report,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,North China,business_case,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,North China,industry_report,1.000000,3.6400,4
+2002-2013_taiwan_capital_gateway,North China,news_report,0.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,North China,official_brand_timeline,0.000000,0.8448,1
+2002-2013_taiwan_capital_gateway,Taiwan-side,academic_article,0.000000,1.8200,2
+2002-2013_taiwan_capital_gateway,Taiwan-side,municipal_profile,1.000000,0.7600,1
+2002-2013_taiwan_capital_gateway,Taiwan-side,official_brand_timeline,0.955255,19.0525,21
+2002-2013_taiwan_capital_gateway,Taiwan-side,official_company_report,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,Taiwan_business_directory,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,annual_report,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,business_case,1.000000,5.4600,6
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,industry_report,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,media_report,0.000000,1.7376,2
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,news_report,0.750000,3.6400,4
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,newspaper_report,1.000000,2.1200,2
+2014-2020_pre_wanghong_platformization,North China,industry_report,1.000000,1.8200,2
+2014-2020_pre_wanghong_platformization,Singapore,newspaper_archive,1.000000,2.1200,2
+2014-2020_pre_wanghong_platformization,Taiwan-side,food_media,0.000000,0.8275,1
+2014-2020_pre_wanghong_platformization,Taiwan-side,municipal_profile,1.000000,5.3200,7
+2014-2020_pre_wanghong_platformization,Taiwan-side,official_brand_timeline,0.796051,8.0020,9
+2014-2020_pre_wanghong_platformization,Taiwan-side,public_web_profile,1.000000,2.2800,3
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,food_media,0.000000,0.9100,1
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,image_metadata,0.000000,0.9100,1
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,local_business_media,1.000000,0.9100,1
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,media_report,1.000000,0.9100,1
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,news_report,1.000000,0.9100,1
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,newspaper_archive,1.000000,1.0600,1
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,retail_media,0.833333,5.4600,6
+2014-2020_pre_wanghong_platformization,national,franchise_portal,1.000000,2.7300,3
+2014-2020_pre_wanghong_platformization,national,media_report,1.000000,0.9100,1
+2015-2025_internet_wanghong_capital,Singapore,newspaper_issue,1.000000,6.3600,6
+2015-2025_internet_wanghong_capital,Taiwan-side,food_blog,1.000000,0.7600,1
+2015-2025_internet_wanghong_capital,Taiwan-side,news_feature,1.000000,1.8200,2
+2015-2025_internet_wanghong_capital,Taiwan-side,official_activity_page,1.000000,7.6000,10
+2015-2025_internet_wanghong_capital,Taiwan-side,official_attraction_profile,1.000000,7.6000,10
+2015-2025_internet_wanghong_capital,Taiwan-side,official_cuisine_index,1.000000,11.4000,15
+2015-2025_internet_wanghong_capital,Taiwan-side,official_event_page,1.000000,207.7192,309
+2015-2025_internet_wanghong_capital,Taiwan-side,official_food_file,1.000000,7.6000,10
+2015-2025_internet_wanghong_capital,Taiwan-side,official_promotion_file,1.000000,15.2000,20
+2015-2025_internet_wanghong_capital,Taiwan-side,official_tourism_profile,1.000000,95.2024,127
+2015-2025_internet_wanghong_capital,Taiwan-side,official_tourism_route,1.000000,19.0000,25
+2015-2025_platformization,Korea,michelin_press_release_pdf,1.000000,0.9100,1
+2015-2025_platformization,Korea,michelin_restaurant_page,1.000000,2.8800,3
+2015-2025_platformization,Taiwan-side,official_open_data,1.000000,270.5600,356
+2015-2025_platformization,Taiwan-side,official_open_data_michelin,1.000000,4.5600,6
+2015-2025_platformization,Taiwan-side,official_tourism_news,1.000000,18.1269,26
+2015-2025_platformization,Taiwan-side,official_tourism_profile,1.000000,0.7600,1
+2021-2025_internet_wanghong_capital,Central China,local_business_media,1.000000,0.9100,1
+2021-2025_internet_wanghong_capital,Taiwan-side,municipal_profile,1.000000,5.3200,7
+2021-2025_internet_wanghong_capital,Taiwan-side,official_brand_timeline,1.000000,0.9100,1
+2021-2025_internet_wanghong_capital,Yangtze River Delta,food_industry_media,1.000000,1.8200,2
+2021-2025_internet_wanghong_capital,Yangtze River Delta,local_business_media,1.000000,1.8200,2
+2021-2025_internet_wanghong_capital,Yangtze River Delta,news_report,1.000000,8.1900,9
+2021-2025_internet_wanghong_capital,national,media_report,1.000000,0.9100,1
+out_of_scope,Taiwan-side,official_district_page,1.000000,7.0312,10

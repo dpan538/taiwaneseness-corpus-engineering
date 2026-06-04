@@ -1,0 +1,39 @@
+period,corridor,weighted_binding_index,weight_sum,row_count
+1940-1945_late_colonial_food_order,Taiwan-side,1.000000,6.9900,9
+1940-1945_preformation,Taiwan-side,1.000000,0.5267,1
+1940-1987_taiwan_side_formation,Taiwan-side,1.000000,1.6700,2
+1946-1987_taiwan_side_formation,Japan,0.959368,21.4241,26
+1946-1987_taiwan_side_formation,Mainland China,0.061947,14.6900,14
+1946-1987_taiwan_side_formation,North America,0.823696,20.6462,23
+1946-1987_taiwan_side_formation,Singapore,0.991292,121.7218,131
+1946-1987_taiwan_side_formation,Taiwan-side,1.000000,149.6882,193
+1946-1987_taiwan_side_formation,unknown,0.000000,17.2993,19
+1950-1978_taiwan_side_popular_food,Taiwan-side,0.000000,3.4015,4
+1979-1987_brand_formalization_and_reopening,Taiwan-side,0.000000,2.3986,3
+1987-2015_cross_strait_diffusion,North China,1.000000,0.9100,1
+1987-2015_cross_strait_diffusion,Singapore,1.000000,274.2375,287
+1987-2015_cross_strait_diffusion,Taiwan-side,1.000000,104.1154,145
+1987-2015_cross_strait_diffusion,Yangtze River Delta,1.000000,37.3100,41
+1988-2001_cross_strait_mobility,Hong Kong,1.000000,0.9100,1
+1988-2001_cross_strait_mobility,North China,0.666667,2.7300,3
+1988-2001_cross_strait_mobility,Taiwan-side,0.523049,3.4796,4
+1988-2001_cross_strait_mobility,Yangtze River Delta,0.750000,3.6400,4
+2002-2013_taiwan_capital_gateway,Japan,1.000000,2.7300,3
+2002-2013_taiwan_capital_gateway,North America,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,North China,0.721672,6.3048,7
+2002-2013_taiwan_capital_gateway,Taiwan-side,0.881446,22.5425,25
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,0.831230,15.6876,17
+2014-2020_pre_wanghong_platformization,North China,1.000000,1.8200,2
+2014-2020_pre_wanghong_platformization,Singapore,1.000000,2.1200,2
+2014-2020_pre_wanghong_platformization,Taiwan-side,0.850300,16.4295,20
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,0.753388,11.0700,12
+2014-2020_pre_wanghong_platformization,national,1.000000,3.6400,4
+2015-2025_internet_wanghong_capital,Singapore,1.000000,6.3600,6
+2015-2025_internet_wanghong_capital,Taiwan-side,1.000000,373.9016,529
+2015-2025_platformization,Korea,1.000000,3.7900,4
+2015-2025_platformization,Taiwan-side,1.000000,294.0069,389
+2021-2025_internet_wanghong_capital,Central China,1.000000,0.9100,1
+2021-2025_internet_wanghong_capital,Taiwan-side,1.000000,6.2300,8
+2021-2025_internet_wanghong_capital,Yangtze River Delta,1.000000,11.8300,13
+2021-2025_internet_wanghong_capital,national,1.000000,0.9100,1
+out_of_scope,Taiwan-side,1.000000,7.0312,10

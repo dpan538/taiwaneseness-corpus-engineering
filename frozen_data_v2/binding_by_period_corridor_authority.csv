@@ -1,0 +1,63 @@
+period,corridor,authority_level,weighted_binding_index,weight_sum,row_count
+1940-1945_late_colonial_food_order,Taiwan-side,secondary,1.000000,0.9100,1
+1940-1945_late_colonial_food_order,Taiwan-side,tertiary,1.000000,6.0800,8
+1940-1945_preformation,Taiwan-side,tertiary,1.000000,0.5267,1
+1940-1987_taiwan_side_formation,Taiwan-side,secondary,1.000000,0.9100,1
+1940-1987_taiwan_side_formation,Taiwan-side,tertiary,1.000000,0.7600,1
+1946-1987_taiwan_side_formation,Japan,primary,1.000000,1.0086,1
+1946-1987_taiwan_side_formation,Japan,secondary,0.944718,15.7465,18
+1946-1987_taiwan_side_formation,Japan,tertiary,1.000000,4.6690,7
+1946-1987_taiwan_side_formation,Mainland China,primary,0.000000,13.7800,13
+1946-1987_taiwan_side_formation,Mainland China,secondary,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,North America,primary,1.000000,4.0609,4
+1946-1987_taiwan_side_formation,North America,secondary,0.772563,16.0044,18
+1946-1987_taiwan_side_formation,North America,tertiary,1.000000,0.5809,1
+1946-1987_taiwan_side_formation,Singapore,primary,0.991128,119.4827,128
+1946-1987_taiwan_side_formation,Singapore,secondary,1.000000,0.9100,1
+1946-1987_taiwan_side_formation,Singapore,tertiary,1.000000,1.3291,2
+1946-1987_taiwan_side_formation,Taiwan-side,primary,1.000000,6.1850,6
+1946-1987_taiwan_side_formation,Taiwan-side,secondary,1.000000,47.3210,54
+1946-1987_taiwan_side_formation,Taiwan-side,tertiary,1.000000,96.1822,133
+1946-1987_taiwan_side_formation,unknown,primary,0.000000,11.4202,12
+1946-1987_taiwan_side_formation,unknown,secondary,0.000000,4.5500,5
+1946-1987_taiwan_side_formation,unknown,tertiary,0.000000,1.3291,2
+1950-1978_taiwan_side_popular_food,Taiwan-side,secondary,0.000000,2.6415,3
+1950-1978_taiwan_side_popular_food,Taiwan-side,tertiary,0.000000,0.7600,1
+1979-1987_brand_formalization_and_reopening,Taiwan-side,secondary,0.000000,1.6386,2
+1979-1987_brand_formalization_and_reopening,Taiwan-side,tertiary,0.000000,0.7600,1
+1987-2015_cross_strait_diffusion,North China,secondary,1.000000,0.9100,1
+1987-2015_cross_strait_diffusion,Singapore,primary,1.000000,263.3175,275
+1987-2015_cross_strait_diffusion,Singapore,secondary,1.000000,10.9200,12
+1987-2015_cross_strait_diffusion,Taiwan-side,primary,1.000000,16.9600,16
+1987-2015_cross_strait_diffusion,Taiwan-side,tertiary,1.000000,87.1554,129
+1987-2015_cross_strait_diffusion,Yangtze River Delta,secondary,1.000000,37.3100,41
+1988-2001_cross_strait_mobility,Hong Kong,secondary,1.000000,0.9100,1
+1988-2001_cross_strait_mobility,North China,secondary,0.666667,2.7300,3
+1988-2001_cross_strait_mobility,Taiwan-side,secondary,0.523049,3.4796,4
+1988-2001_cross_strait_mobility,Yangtze River Delta,secondary,0.750000,3.6400,4
+2002-2013_taiwan_capital_gateway,Japan,secondary,1.000000,2.7300,3
+2002-2013_taiwan_capital_gateway,North America,secondary,1.000000,0.9100,1
+2002-2013_taiwan_capital_gateway,North China,secondary,0.721672,6.3048,7
+2002-2013_taiwan_capital_gateway,Taiwan-side,secondary,0.877310,21.7825,24
+2002-2013_taiwan_capital_gateway,Taiwan-side,tertiary,1.000000,0.7600,1
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,primary,1.000000,2.1200,2
+2002-2013_taiwan_capital_gateway,Yangtze River Delta,secondary,0.804859,13.5676,15
+2014-2020_pre_wanghong_platformization,North China,secondary,1.000000,1.8200,2
+2014-2020_pre_wanghong_platformization,Singapore,primary,1.000000,2.1200,2
+2014-2020_pre_wanghong_platformization,Taiwan-side,secondary,0.721445,8.8295,10
+2014-2020_pre_wanghong_platformization,Taiwan-side,tertiary,1.000000,7.6000,10
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,primary,1.000000,1.0600,1
+2014-2020_pre_wanghong_platformization,Yangtze River Delta,secondary,0.727273,10.0100,11
+2014-2020_pre_wanghong_platformization,national,secondary,1.000000,3.6400,4
+2015-2025_internet_wanghong_capital,Singapore,primary,1.000000,6.3600,6
+2015-2025_internet_wanghong_capital,Taiwan-side,secondary,1.000000,1.8200,2
+2015-2025_internet_wanghong_capital,Taiwan-side,tertiary,1.000000,372.0816,527
+2015-2025_platformization,Korea,primary,1.000000,1.0600,1
+2015-2025_platformization,Korea,secondary,1.000000,2.7300,3
+2015-2025_platformization,Taiwan-side,tertiary,1.000000,294.0069,389
+2021-2025_internet_wanghong_capital,Central China,secondary,1.000000,0.9100,1
+2021-2025_internet_wanghong_capital,Taiwan-side,secondary,1.000000,0.9100,1
+2021-2025_internet_wanghong_capital,Taiwan-side,tertiary,1.000000,5.3200,7
+2021-2025_internet_wanghong_capital,Yangtze River Delta,secondary,1.000000,11.8300,13
+2021-2025_internet_wanghong_capital,national,secondary,1.000000,0.9100,1
+out_of_scope,Taiwan-side,tertiary,1.000000,7.0312,10

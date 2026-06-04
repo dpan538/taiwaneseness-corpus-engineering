@@ -1,0 +1,9 @@
+period,corridor,target_control_type,weighted_binding_index,weight_sum,row_count
+1946-1987_taiwan_side_formation,Japan,target_dish_absent_taiwan_context,0.000000,17.9075,22
+1946-1987_taiwan_side_formation,Japan,target_positive,1.000000,2.6066,3
+1946-1987_taiwan_side_formation,Mainland China,target_dish_absent_taiwan_context,0.000000,4.2400,4
+1946-1987_taiwan_side_formation,North America,target_dish_absent_taiwan_context,0.000000,14.6053,16
+1946-1987_taiwan_side_formation,Singapore,target_dish_absent_taiwan_context,0.000000,14.4390,16
+1946-1987_taiwan_side_formation,Taiwan-side,target_dish_absent_taiwan_context,0.000000,23.6691,30
+1946-1987_taiwan_side_formation,Taiwan-side,target_positive,1.000000,84.6664,110
+1946-1987_taiwan_side_formation,unknown,target_dish_absent_taiwan_context,0.000000,11.1734,12

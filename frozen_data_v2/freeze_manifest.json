@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-06-04T06:02:53+00:00",
+  "attestations": "working/current_assessment_weighted_001_012.csv",
+  "records": 1965,
+  "fields": 39,
+  "out_dir": "frozen_data_v2",
+  "authority_distribution": {
+    "tertiary": 1230,
+    "primary": 467,
+    "secondary": 268
+  },
+  "corridor_distribution": {
+    "Taiwan-side": 1342,
+    "Singapore": 426,
+    "Yangtze River Delta": 87,
+    "Japan": 29,
+    "North America": 24,
+    "unknown": 19,
+    "Mainland China": 14,
+    "North China": 13,
+    "national": 5,
+    "Korea": 4,
+    "Hong Kong": 1,
+    "Central China": 1
+  },
+  "period_distribution": {
+    "2015-2025_internet_wanghong_capital": 535,
+    "1987-2015_cross_strait_diffusion": 474,
+    "1946-1987_taiwan_side_formation": 406,
+    "2015-2025_platformization": 393,
+    "2002-2013_taiwan_capital_gateway": 53,
+    "2014-2020_pre_wanghong_platformization": 40,
+    "2021-2025_internet_wanghong_capital": 23,
+    "1988-2001_cross_strait_mobility": 12,
+    "out_of_scope": 10,
+    "1940-1945_late_colonial_food_order": 9,
+    "1950-1978_taiwan_side_popular_food": 4,
+    "1979-1987_brand_formalization_and_reopening": 3,
+    "1940-1987_taiwan_side_formation": 2,
+    "1940-1945_preformation": 1
+  },
+  "target_analysis_exported": true,
+  "target_analysis_rows": 213,
+  "target_control_distribution": {
+    "target_dish_absent_taiwan_context": 100,
+    "target_positive": 113
+  }
+}

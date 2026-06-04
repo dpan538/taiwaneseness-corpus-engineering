@@ -1,0 +1,19 @@
+metric,value
+input_csv,working/manual_harvest_primary_round_010_batch_005.csv
+total_records,100
+missing_fields.year,0
+missing_fields.original_text,0
+missing_fields.dish_marker,0
+missing_fields.taiwan_marker,0
+missing_fields.source_url,0
+unique_source_refs,100
+duplicate_url_groups,0
+duplicate_url_ratio,0.0
+duplicate_artifact_groups,0
+suspicious_split_groups,0
+invalid_year_count,0
+invalid_year_ratio,0.0
+source_type_distribution.official_open_data,100
+corridor_distribution.Taiwan-side,100
+top_source_names.Taiwan Tourism Administration Open Multimedia Data,100
+quality_grade,A

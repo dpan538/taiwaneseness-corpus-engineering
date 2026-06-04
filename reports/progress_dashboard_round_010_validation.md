@@ -1,13 +1,13 @@
 # Progress Dashboard
 
-Generated: 2026-06-04T13:30:06
+Generated: 2026-06-04T13:38:18
 
-- Executed URLs/tasks: 102
-- Successful URL/tasks: 100
-- Failures: 2 (2.0%)
-- Raw result count: 100
-- Accepted records: 100 / 500
-- Accepted remaining: 400
+- Executed URLs/tasks: 202
+- Successful URL/tasks: 200
+- Failures: 2 (1.0%)
+- Raw result count: 200
+- Accepted records: 200 / 500
+- Accepted remaining: 300
 - Accepted per successful URL: 1.0
 
 ## Top Failure Reasons
